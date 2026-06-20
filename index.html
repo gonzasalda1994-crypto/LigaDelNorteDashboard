@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏆 Liga del Norte - Ajedrez</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        th.sortable { cursor: pointer; user-select: none; }
+        th.sortable:hover { background-color: #f1f5f9; color: #1e40af; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="max-w-6xl mx-auto">
+        <header class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+            <div>
+                <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">♟️ Liga del Norte</h1>
+                <p class="text-slate-500 font-medium">Resultados y Clasificación Anual</p>
+            </div>
+            <div class="flex gap-4 items-center">
+                <select id="select-categoria" class="bg-slate-100 border border-slate-300 rounded-xl p-3 font-semibold text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500"></select>
+                <select id="select-fase" class="bg-slate-100 border border-slate-300 rounded-xl p-3 font-semibold text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 hidden"></select>
+            </div>
+        </header>
+
+        <div id="contenedor-link-externo" class="mb-6 hidden">
+            <a id="link-chess-results" href="#" target="_blank" class="inline-flex items-center gap-2 bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold px-4 py-3 rounded-xl border border-blue-200 transition text-sm">
+                📊 Ver este torneo en Chess-Results ↗
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm transition hover:-translate-y-1">
+                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">👥 Jugadores Totales</h3>
+                <p id="kpi-jugadores" class="text-3xl font-black text-slate-800">-</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm transition hover:-translate-y-1">
+                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">👑 Líder Grand Prix</h3>
+                <p id="kpi-lider" class="text-xl font-black text-slate-800 truncate">-</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm transition hover:-translate-y-1">
+                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">🏎️ Puntos del Líder</h3>
+                <p id="kpi-puntos" class="text-3xl font-black text-blue-600">-</p>
+            </div>
+        </div>
+
+        <div class="flex gap-2 border-b border-slate-200 mb-6 overflow-x-auto">
+            <button onclick="cambiarTab('gp')" id="btn-tab-gp" class="px-6 py-3 font-bold text-sm rounded-t-xl transition border-b-2 border-blue-600 text-blue-600 bg-white cursor-pointer whitespace-nowrap">🏎️ Acumulado Grand Prix</button>
+            <button onclick="cambiarTab('puntos')" id="btn-tab-puntos" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📈 Acumulado Puntos Partidas</button>
+            <button onclick="cambiarTab('fases')" id="btn-tab-fases" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📍 Por Fase</button>
+        </div>
+
+        <div id="aviso-puntuacion-gp" class="mb-6 bg-blue-50 border border-blue-200 p-4 rounded-xl text-blue-800 text-sm font-medium">
+            💡 <span class="font-bold">Escala de puntos por Fase:</span> 1° puesto (10 pts), 2° (9 pts), 3° (8 pts), 4° (7 pts), 5° (6 pts), 6° (5 pts), 7° (4 pts), 8° (3 pts), 9° (2 pts) y 10° (1 pt).
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-x-auto">
+            <table class="w-full text-left border-collapse min-w-max">
+                <thead id="tabla-encabezado">
+                    </thead>
+                <tbody id="tabla-cuerpo" class="divide-y divide-slate-100 text-slate-700 font-medium">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let datosGlobales = {};
+        let tabActual = 'gp';
+        let listaActualMemoria = []; 
+        let fasesNombresActivas = [];
+        let columnaOrdenActiva = '';
+        let ordenAscendente = true;
+
+        const ORDEN_CATEGORIAS = ["Libres", "Sub-16", "Sub-14", "Sub-12", "Sub-10", "Sub-8"];
+
+        fetch('datos_liga.json')
+            .then(res => res.json())
+            .then(data => {
+                datosGlobales = data;
+                inicializarApp();
+            })
+            .catch(err => console.error("Error cargando JSON:", err));
+
+        function inicializarApp() {
+            const selectCat = document.getElementById('select-categoria');
+            selectCat.innerHTML = "";
+            
+            const listaCategoriasJson = Object.keys(datosGlobales);
+            if(listaCategoriasJson.length === 0) return;
+
+            listaCategoriasJson.sort((a, b) => {
+                let idxA = ORDEN_CATEGORIAS.indexOf(a);
+                let idxB = ORDEN_CATEGORIAS.indexOf(b);
+                if (idxA === -1) idxA = 99;
+                if (idxB === -1) idxB = 99;
+                return idxA - idxB;
+            });
+
+            listaCategoriasJson.forEach(cat => {
+                let opt = document.createElement('option');
+                opt.value = cat; opt.innerText = cat;
+                selectCat.appendChild(opt);
+            });
+
+            selectCat.addEventListener('change', function() {
+                document.getElementById('select-fase').innerHTML = "";
+                resetearDireccionesOrden();
+                renderizar();
+            });
+            
+            document.getElementById('select-fase').addEventListener('change', function() {
+                resetearDireccionesOrden();
+                renderizar();
+            });
+            
+            renderizar();
+        }
+
+        function cambiarTab(tab) {
+            tabActual = tab;
+            resetearDireccionesOrden();
+            ['gp', 'puntos', 'fases'].forEach(t => {
+                const btn = document.getElementById(`btn-tab-${t}`);
+                if(btn) {
+                    btn.className = (t === tab) 
+                        ? "px-6 py-3 font-bold text-sm rounded-t-xl transition border-b-2 border-blue-600 text-blue-600 bg-white cursor-pointer whitespace-nowrap"
+                        : "px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap";
+                }
+            });
+            renderizar();
+        }
+
+        function resetearDireccionesOrden() {
+            columnaOrdenActiva = '';
+            ordenAscendente = true;
+        }
+
+        function ordenarTabla(columna) {
+            if (columnaOrdenActiva === columna) {
+                ordenAscendente = !ordenAscendente;
+            } else {
+                columnaOrdenActiva = columna;
+                ordenAscendente = (columna === 'jugador' || columna === 'procedencia') ? true : false; 
+            }
+
+            actualizarEncabezados();
+
+            listaActualMemoria.sort((a, b) => {
+                let valA, valB;
+                
+                if (columna === 'pos') {
+                    valA = a.Posicion || a.autoPos || 0;
+                    valB = b.Posicion || b.autoPos || 0;
+                } else if (columna === 'jugador') {
+                    valA = (a.Jugador || '').toLowerCase();
+                    valB = (b.Jugador || '').toLowerCase();
+                } else if (columna === 'procedencia') {
+                    valA = (a.Procedencia || '').toLowerCase();
+                    valB = (b.Procedencia || '').toLowerCase();
+                } else if (columna === 'puntos') {
+                    if (tabActual === 'gp' || tabActual === 'puntos') {
+                        valA = a.Total !== undefined ? parseFloat(a.Total) : 0;
+                        valB = b.Total !== undefined ? parseFloat(b.Total) : 0;
+                    } else {
+                        valA = a.Puntos !== undefined ? parseFloat(a.Puntos) : 0;
+                        valB = b.Puntos !== undefined ? parseFloat(b.Puntos) : 0;
+                    }
+                }
+
+                if (valA < valB) return ordenAscendente ? -1 : 1;
+                if (valA > valB) return ordenAscendente ? 1 : -1;
+                return 0;
+            });
+
+            dibujarFilasTablas();
+        }
+
+        function actualizarEncabezados() {
+            const thead = document.getElementById('tabla-encabezado');
+            let html = `<tr class="bg-slate-50 border-b border-slate-200 text-slate-400 text-xs font-bold uppercase tracking-wider select-none">`;
+            
+            html += `<th onclick="ordenarTabla('pos')" class="sortable p-4 w-20 text-center">Pos <span id="dir-pos"></span></th>`;
+            html += `<th onclick="ordenarTabla('jugador')" class="sortable p-4">Ajedrecista <span id="dir-jugador"></span></th>`;
+            html += `<th onclick="ordenarTabla('procedencia')" class="sortable p-4">Localidad / Club <span id="dir-procedencia"></span></th>`;
+
+            if (tabActual === 'gp' || tabActual === 'puntos') {
+                fasesNombresActivas.forEach(f => {
+                    html += `<th class="p-4 text-center border-l border-slate-200 text-slate-400 tracking-tight">${f}</th>`;
+                });
+                html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8 border-l border-slate-200 bg-slate-100 rounded-tr-xl">Total <span id="dir-puntos"></span></th>`;
+            } else {
+                html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8">Puntos Fase <span id="dir-puntos"></span></th>`;
+            }
+            html += `</tr>`;
+            thead.innerHTML = html;
+
+            ['pos', 'jugador', 'procedencia', 'puntos'].forEach(c => {
+                const el = document.getElementById(`dir-${c}`);
+                if(el) el.innerText = (c === columnaOrdenActiva) ? (ordenAscendente ? ' ▲' : ' ▼') : '';
+            });
+        }
+
+        function renderizar() {
+            const cat = document.getElementById('select-categoria').value;
+            if(!cat || !datosGlobales[cat]) return;
+
+            const infoCat = datosGlobales[cat];
+            const selectFase = document.getElementById('select-fase');
+            const avisoGP = document.getElementById('aviso-puntuacion-gp');
+            const contenedorLink = document.getElementById('contenedor-link-externo');
+            
+            fasesNombresActivas = infoCat.fases_nombres || [];
+            let faseElegida = "";
+
+            if(tabActual === 'fases') {
+                selectFase.classList.remove('hidden');
+                if(contenedorLink) contenedorLink.classList.remove('hidden');
+                
+                if(selectFase.innerHTML === "" && infoCat.fases) {
+                    fasesNombresActivas.forEach(f => {
+                        let opt = document.createElement('option');
+                        opt.value = f; opt.innerText = f;
+                        selectFase.appendChild(opt);
+                    });
+                }
+                
+                faseElegida = selectFase.value || (fasesNombresActivas.length > 0 ? fasesNombresActivas[0] : "");
+                
+                const elLink = document.getElementById('link-chess-results');
+                if(elLink && faseElegida && infoCat.fases[faseElegida]) {
+                    elLink.href = infoCat.fases[faseElegida].link_chess_results || "#";
+                }
+            } else {
+                selectFase.classList.add('hidden');
+                if(contenedorLink) contenedorLink.classList.add('hidden');
+            }
+
+            if (tabActual === 'gp') {
+                avisoGP.classList.remove('hidden');
+            } else {
+                avisoGP.classList.add('hidden');
+            }
+
+            // KPIs
+            const totalJugadores = infoCat.acumulado_puntos ? infoCat.acumulado_puntos.length : 0;
+            document.getElementById('kpi-jugadores').innerText = totalJugadores;
+            
+            const lider = (infoCat.acumulado_gp && infoCat.acumulado_gp.length > 0) ? infoCat.acumulado_gp[0] : null;
+            document.getElementById('kpi-lider').innerText = lider ? lider.Jugador : '-';
+            document.getElementById('kpi-puntos').innerText = lider ? `${lider.Total} pts` : '-';
+
+            actualizarEncabezados();
+
+            if(tabActual === 'gp') {
+                listaActualMemoria = infoCat.acumulado_gp ? JSON.parse(JSON.stringify(infoCat.acumulado_gp)) : [];
+            } else if(tabActual === 'puntos') {
+                listaActualMemoria = infoCat.acumulado_puntos ? JSON.parse(JSON.stringify(infoCat.acumulado_puntos)) : [];
+            } else {
+                listaActualMemoria = (infoCat.fases && infoCat.fases[faseElegida]) ? JSON.parse(JSON.stringify(infoCat.fases[faseElegida].resultados || [])) : [];
+            }
+
+            listaActualMemoria.forEach((row, i) => { row.autoPos = i + 1; });
+
+            dibujarFilasTablas();
+        }
+
+        function dibujarFilasTablas() {
+            const cuerpo = document.getElementById('tabla-cuerpo');
+            if(!cuerpo) return;
+            cuerpo.innerHTML = "";
+
+            if (!listaActualMemoria || listaActualMemoria.length === 0) {
+                const colspan = (tabActual === 'gp' || tabActual === 'puntos') ? 4 + fasesNombresActivas.length : 4;
+                cuerpo.innerHTML = `<tr><td colspan="${colspan}" class="p-8 text-center text-slate-400">No hay datos disponibles</td></tr>`;
+                return;
+            }
+
+            listaActualMemoria.forEach((row) => {
+                if (!row || !row.Jugador) return;
+
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-50 transition border-b border-slate-100";
+                
+                const pos = row.Posicion || row.autoPos || "-";
+                const procedencia = row.Procedencia && row.Procedencia !== "Nan" ? row.Procedencia : "-";
+
+                let celdasFasesHtml = "";
+                let valorFinalHtml = "";
+
+                if (tabActual === 'gp' || tabActual === 'puntos') {
+                    fasesNombresActivas.forEach(f => {
+                        const ptsFase = row[f];
+                        const mostrarPuntos = ptsFase ? ptsFase : "<span class='text-slate-300'>-</span>";
+                        celdasFasesHtml += `<td class="p-4 text-center font-medium text-slate-500 border-l border-slate-100">${mostrarPuntos}</td>`;
+                    });
+
+                    const sufijo = tabActual === 'gp' ? '🏆' : 'pts';
+                    valorFinalHtml = `<td class="p-4 text-right pr-8 font-black text-slate-900 border-l border-slate-100 bg-slate-50/50">${row.Total} ${sufijo}</td>`;
+                } else {
+                    const valor = row.Puntos_GP !== undefined ? `${row.Puntos_GP} 🏆` : `${row.Puntos} pts`;
+                    valorFinalHtml = `<td class="p-4 text-right pr-8 font-black text-slate-900">${valor}</td>`;
+                }
+
+                tr.innerHTML = `
+                    <td class="p-4 text-center font-bold text-slate-400 text-sm">${pos}</td>
+                    <td class="p-4 font-semibold text-slate-800 whitespace-nowrap">${row.Jugador}</td>
+                    <td class="p-4 text-slate-500 font-normal truncate max-w-[150px]">${procedencia}</td>
+                    ${celdasFasesHtml}
+                    ${valorFinalHtml}
+                `;
+                cuerpo.appendChild(tr);
+            });
+        }
+    </script>
+</body>
+</html>
