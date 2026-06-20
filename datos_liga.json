@@ -1465,3010 +1465,6 @@
       }
     ]
   },
-  "Sub-16": {
-    "fases_nombres": [
-      "Fase 1",
-      "Fase 2",
-      "Fase 3"
-    ],
-    "fases": {
-      "Fase 1": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Almada, Juan Bautista",
-            "Procedencia": "Escobar",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Pou, Pedro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Ortiz Ramirez, Luciano Uriel",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Garcia, Luana",
-            "Procedencia": "Pilar",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Accomo, Juan Martin",
-            "Procedencia": "Suipacha",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Papandrea, Bautista",
-            "Procedencia": "Tigre",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Soto Siles, Javier Isidoro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Caballero, Miqueas",
-            "Procedencia": "Tigre",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Torre, Joaquin",
-            "Procedencia": "General Las Heras",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Tevez, Bruno Isaias",
-            "Procedencia": "Tigre",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Roldan Ramos, Stanley",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Valdez, Brandon Jeremias",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Balzano, Lautaro",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Kratzer, Pilar",
-            "Procedencia": "Zárate",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Fleitas, Facundo",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Ibarra, Lautaro Javier",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Fretes, Alexis",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 18,
-            "Jugador": "Amarilla, Marco",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 19,
-            "Jugador": "Rosse, Mariano",
-            "Procedencia": "Escobar",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 20,
-            "Jugador": "Silvero, Joaquin",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 21,
-            "Jugador": "Winkler, Alfonsina",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 22,
-            "Jugador": "Altamirano, Victoria",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 23,
-            "Jugador": "Victor, Juniors",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 24,
-            "Jugador": "Zavala, Tobias",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 25,
-            "Jugador": "Pallone, Tatiana",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 26,
-            "Jugador": "Pentray, Itzel",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 27,
-            "Jugador": "Palacio, Brian",
-            "Procedencia": "-",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 28,
-            "Jugador": "Rial, Joaquin Tiziano",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 29,
-            "Jugador": "Restuccia, Renzo Uziel",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 30,
-            "Jugador": "Realini, Josue",
-            "Procedencia": "Lobos",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 31,
-            "Jugador": "Gonzalez Perez, Bautista",
-            "Procedencia": "-",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 32,
-            "Jugador": "Kowalczuk, Lorenzo",
-            "Procedencia": "Tigre",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 33,
-            "Jugador": "Caceres, Ramiro",
-            "Procedencia": "Tigre",
-            "Puntos": 1.0
-          },
-          {
-            "Posicion": 34,
-            "Jugador": "Egui, Leandro Jose",
-            "Procedencia": "Tigre",
-            "Puntos": 1.0
-          },
-          {
-            "Posicion": 35,
-            "Jugador": "Rimbaud, Valentin",
-            "Procedencia": "Tigre",
-            "Puntos": 1.0
-          }
-        ]
-      },
-      "Fase 2": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Pou, Pedro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Buljubasich, Pedro",
-            "Procedencia": "Salto",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Amarilla, Marco",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Soto Siles, Javier Isidoro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Papandrea, Bautista",
-            "Procedencia": "Tigre",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Almada, Juan Bautista",
-            "Procedencia": "Escobar",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Fleitas, Facundo",
-            "Procedencia": "Tigre",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Roldan Ramos, Stanley",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Ortiz Ramirez, Luciano Uriel",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Altamirano, Victoria",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Caballero, Miqueas",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Accomo, Juan Martin",
-            "Procedencia": "Suipacha",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Bustos, Felipe",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Tevez, Bruno Isaias",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Stutz, Leon",
-            "Procedencia": "Tigre",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Balzano, Lautaro",
-            "Procedencia": "Escobar",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Silvero, Joaquin",
-            "Procedencia": "Escobar",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 18,
-            "Jugador": "Martinez, Mateo Valentin",
-            "Procedencia": "Tigre",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 19,
-            "Jugador": "Zavala, Valentino",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 20,
-            "Jugador": "Kratzer, Pilar",
-            "Procedencia": "Zárate",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 21,
-            "Jugador": "Realini, Josue",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 22,
-            "Jugador": "Winkler, Alfonsina",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 23,
-            "Jugador": "Rosse, Mariano",
-            "Procedencia": "Escobar",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 24,
-            "Jugador": "Victor, Juniors",
-            "Procedencia": "Lobos",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 25,
-            "Jugador": "Mejia, Astor",
-            "Procedencia": "Marcos Paz",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 26,
-            "Jugador": "Machado, Leonel",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 27,
-            "Jugador": "Gonzalez Perez, Bautista",
-            "Procedencia": "Escobar",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 28,
-            "Jugador": "Pentray, Itzel",
-            "Procedencia": "Lobos",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 29,
-            "Jugador": "Palacio, Brian",
-            "Procedencia": "Tigre",
-            "Puntos": 1.5
-          },
-          {
-            "Posicion": 30,
-            "Jugador": "Britez Luna, Tomas Valentin",
-            "Procedencia": "Tigre",
-            "Puntos": 0.0
-          }
-        ]
-      },
-      "Fase 3": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Amarilla, Marco",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Papandrea, Bautista",
-            "Procedencia": "Tigre",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Buljubasich, Pedro",
-            "Procedencia": "Salto",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Roldan Ramos, Stanley",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Almada, Juan Bautista",
-            "Procedencia": "Escobar",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Caballero, Miqueas",
-            "Procedencia": "Tigre",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Pou, Pedro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Balzano, Lautaro",
-            "Procedencia": "Escobar",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Victor, Juniors",
-            "Procedencia": "Lobos",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Bustos, Felipe",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Rosse, Mariano",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Kratzer, Pilar",
-            "Procedencia": "-",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Fleitas, Facundo",
-            "Procedencia": "Tigre",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Accomo, Juan Martin",
-            "Procedencia": "Suipacha",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Ortiz Ramirez, Luciano Uriel",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Tevez, Bruno",
-            "Procedencia": "Tigre",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Pentray, Itzel",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 18,
-            "Jugador": "Realini, Josue",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 19,
-            "Jugador": "Winkler, Alfonsina",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 20,
-            "Jugador": "Ibarra, Lautaro Javier",
-            "Procedencia": "Tigre",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 21,
-            "Jugador": "Gonzalez Perez, Bautista",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 22,
-            "Jugador": "Britez Luna, Tomas Valentin",
-            "Procedencia": "Tigre",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 23,
-            "Jugador": "Mejia, Astor",
-            "Procedencia": "Marcos Paz",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 24,
-            "Jugador": "Amarilla, Maria",
-            "Procedencia": "Baradero",
-            "Puntos": 1.5
-          },
-          {
-            "Posicion": 25,
-            "Jugador": "Zavala, Valentino",
-            "Procedencia": "Escobar",
-            "Puntos": 1.0
-          },
-          {
-            "Posicion": 26,
-            "Jugador": "Masoero Loriente, Juan",
-            "Procedencia": "Baradero",
-            "Puntos": 0.5
-          }
-        ]
-      }
-    },
-    "acumulado_puntos": [
-      {
-        "Jugador": "Pou, Pedro",
-        "Fase 1": 5.5,
-        "Fase 2": 6.0,
-        "Fase 3": 4.5,
-        "Total": 16.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Almada, Juan Bautista",
-        "Fase 1": 6.0,
-        "Fase 2": 5.0,
-        "Fase 3": 4.5,
-        "Total": 15.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Papandrea, Bautista",
-        "Fase 1": 4.5,
-        "Fase 2": 5.0,
-        "Fase 3": 5.5,
-        "Total": 15.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Amarilla, Marco",
-        "Fase 1": 3.5,
-        "Fase 2": 5.0,
-        "Fase 3": 5.5,
-        "Total": 14.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Roldan Ramos, Stanley",
-        "Fase 1": 4.0,
-        "Fase 2": 4.5,
-        "Fase 3": 5.0,
-        "Total": 13.5,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Caballero, Miqueas",
-        "Fase 1": 4.5,
-        "Fase 2": 4.0,
-        "Fase 3": 4.5,
-        "Total": 13.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Ortiz Ramirez, Luciano Uriel",
-        "Fase 1": 5.5,
-        "Fase 2": 4.0,
-        "Fase 3": 3.5,
-        "Total": 13.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Accomo, Juan Martin",
-        "Fase 1": 5.0,
-        "Fase 2": 4.0,
-        "Fase 3": 3.5,
-        "Total": 12.5,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Fleitas, Facundo",
-        "Fase 1": 4.0,
-        "Fase 2": 5.0,
-        "Fase 3": 3.5,
-        "Total": 12.5,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Balzano, Lautaro",
-        "Fase 1": 4.0,
-        "Fase 2": 3.5,
-        "Fase 3": 4.5,
-        "Total": 12.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Buljubasich, Pedro",
-        "Fase 1": 0.0,
-        "Fase 2": 5.5,
-        "Fase 3": 5.5,
-        "Total": 11.0,
-        "Procedencia": "Salto"
-      },
-      {
-        "Jugador": "Kratzer, Pilar",
-        "Fase 1": 4.0,
-        "Fase 2": 3.0,
-        "Fase 3": 4.0,
-        "Total": 11.0,
-        "Procedencia": "Zárate"
-      },
-      {
-        "Jugador": "Rosse, Mariano",
-        "Fase 1": 3.5,
-        "Fase 2": 2.5,
-        "Fase 3": 4.0,
-        "Total": 10.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Victor, Juniors",
-        "Fase 1": 3.0,
-        "Fase 2": 2.5,
-        "Fase 3": 4.0,
-        "Total": 9.5,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Soto Siles, Javier Isidoro",
-        "Fase 1": 4.5,
-        "Fase 2": 5.0,
-        "Fase 3": 0.0,
-        "Total": 9.5,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Winkler, Alfonsina",
-        "Fase 1": 3.0,
-        "Fase 2": 3.0,
-        "Fase 3": 3.0,
-        "Total": 9.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Tevez, Bruno Isaias",
-        "Fase 1": 4.5,
-        "Fase 2": 4.0,
-        "Fase 3": 0.0,
-        "Total": 8.5,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Pentray, Itzel",
-        "Fase 1": 3.0,
-        "Fase 2": 2.0,
-        "Fase 3": 3.0,
-        "Total": 8.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Bustos, Felipe",
-        "Fase 1": 0.0,
-        "Fase 2": 4.0,
-        "Fase 3": 4.0,
-        "Total": 8.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Realini, Josue",
-        "Fase 1": 2.0,
-        "Fase 2": 3.0,
-        "Fase 3": 3.0,
-        "Total": 8.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Ibarra, Lautaro Javier",
-        "Fase 1": 4.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 7.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Altamirano, Victoria",
-        "Fase 1": 3.0,
-        "Fase 2": 4.0,
-        "Fase 3": 0.0,
-        "Total": 7.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Gonzalez Perez, Bautista",
-        "Fase 1": 2.0,
-        "Fase 2": 2.0,
-        "Fase 3": 3.0,
-        "Total": 7.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Silvero, Joaquin",
-        "Fase 1": 3.0,
-        "Fase 2": 3.5,
-        "Fase 3": 0.0,
-        "Total": 6.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Garcia, Luana",
-        "Fase 1": 5.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 5.5,
-        "Procedencia": "Pilar"
-      },
-      {
-        "Jugador": "Palacio, Brian",
-        "Fase 1": 3.0,
-        "Fase 2": 1.5,
-        "Fase 3": 0.0,
-        "Total": 4.5,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Torre, Joaquin",
-        "Fase 1": 4.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 4.5,
-        "Procedencia": "General Las Heras"
-      },
-      {
-        "Jugador": "Mejia, Astor",
-        "Fase 1": 0.0,
-        "Fase 2": 2.0,
-        "Fase 3": 2.0,
-        "Total": 4.0,
-        "Procedencia": "Marcos Paz"
-      },
-      {
-        "Jugador": "Zavala, Valentino",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 1.0,
-        "Total": 4.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Valdez, Brandon Jeremias",
-        "Fase 1": 4.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 4.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Fretes, Alexis",
-        "Fase 1": 3.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.5,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Stutz, Leon",
-        "Fase 1": 0.0,
-        "Fase 2": 3.5,
-        "Fase 3": 0.0,
-        "Total": 3.5,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Rial, Joaquin Tiziano",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Pallone, Tatiana",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Tevez, Bruno",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Zavala, Tobias",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Martinez, Mateo Valentin",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Restuccia, Renzo Uziel",
-        "Fase 1": 2.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 2.5,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Kowalczuk, Lorenzo",
-        "Fase 1": 2.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 2.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Machado, Leonel",
-        "Fase 1": 0.0,
-        "Fase 2": 2.0,
-        "Fase 3": 0.0,
-        "Total": 2.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Britez Luna, Tomas Valentin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 2.0,
-        "Total": 2.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Amarilla, Maria",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 1.5,
-        "Total": 1.5,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Caceres, Ramiro",
-        "Fase 1": 1.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Egui, Leandro Jose",
-        "Fase 1": 1.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Rimbaud, Valentin",
-        "Fase 1": 1.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Masoero Loriente, Juan",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.5,
-        "Total": 0.5,
-        "Procedencia": "Baradero"
-      }
-    ],
-    "acumulado_gp": [
-      {
-        "Jugador": "Pou, Pedro",
-        "Fase 1": 9.0,
-        "Fase 2": 10.0,
-        "Fase 3": 4.0,
-        "Total": 23.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Almada, Juan Bautista",
-        "Fase 1": 10.0,
-        "Fase 2": 5.0,
-        "Fase 3": 6.0,
-        "Total": 21.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Papandrea, Bautista",
-        "Fase 1": 5.0,
-        "Fase 2": 6.0,
-        "Fase 3": 9.0,
-        "Total": 20.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Amarilla, Marco",
-        "Fase 1": 0.0,
-        "Fase 2": 8.0,
-        "Fase 3": 10.0,
-        "Total": 18.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Buljubasich, Pedro",
-        "Fase 1": 0.0,
-        "Fase 2": 9.0,
-        "Fase 3": 8.0,
-        "Total": 17.0,
-        "Procedencia": "Salto"
-      },
-      {
-        "Jugador": "Soto Siles, Javier Isidoro",
-        "Fase 1": 4.0,
-        "Fase 2": 7.0,
-        "Fase 3": 0.0,
-        "Total": 11.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Ortiz Ramirez, Luciano Uriel",
-        "Fase 1": 8.0,
-        "Fase 2": 2.0,
-        "Fase 3": 0.0,
-        "Total": 10.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Roldan Ramos, Stanley",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 7.0,
-        "Total": 10.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Caballero, Miqueas",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 5.0,
-        "Total": 8.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Garcia, Luana",
-        "Fase 1": 7.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 7.0,
-        "Procedencia": "Pilar"
-      },
-      {
-        "Jugador": "Accomo, Juan Martin",
-        "Fase 1": 6.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 6.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Fleitas, Facundo",
-        "Fase 1": 0.0,
-        "Fase 2": 4.0,
-        "Fase 3": 0.0,
-        "Total": 4.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Balzano, Lautaro",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Torre, Joaquin",
-        "Fase 1": 2.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 2.0,
-        "Procedencia": "General Las Heras"
-      },
-      {
-        "Jugador": "Victor, Juniors",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 2.0,
-        "Total": 2.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Tevez, Bruno Isaias",
-        "Fase 1": 1.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Altamirano, Victoria",
-        "Fase 1": 0.0,
-        "Fase 2": 1.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Bustos, Felipe",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 1.0,
-        "Total": 1.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Amarilla, Maria",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Egui, Leandro Jose",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Caceres, Ramiro",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Britez Luna, Tomas Valentin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Fretes, Alexis",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Masoero Loriente, Juan",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Machado, Leonel",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Martinez, Mateo Valentin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Kratzer, Pilar",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Zárate"
-      },
-      {
-        "Jugador": "Gonzalez Perez, Bautista",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Ibarra, Lautaro Javier",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Kowalczuk, Lorenzo",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Realini, Josue",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Pentray, Itzel",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Palacio, Brian",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Pallone, Tatiana",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Mejia, Astor",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Marcos Paz"
-      },
-      {
-        "Jugador": "Rimbaud, Valentin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Rial, Joaquin Tiziano",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Restuccia, Renzo Uziel",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Stutz, Leon",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Silvero, Joaquin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Rosse, Mariano",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Tevez, Bruno",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Valdez, Brandon Jeremias",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Winkler, Alfonsina",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Zavala, Tobias",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Zavala, Valentino",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      }
-    ]
-  },
-  "Sub-8": {
-    "fases_nombres": [
-      "Fase 1",
-      "Fase 2",
-      "Fase 3"
-    ],
-    "fases": {
-      "Fase 1": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Vedia Caiguara, Alejandro Rider",
-            "Procedencia": "Escobar",
-            "Puntos": 7.0
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Victor, Pedro",
-            "Procedencia": "Lobos",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Areitio, Valentino",
-            "Procedencia": "Luján",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Villar, Lorenzo",
-            "Procedencia": "Campana",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Fernandez, Gianlucca",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Laforet, Juan Pablo",
-            "Procedencia": "Escobar",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Gnazzo, Victoria",
-            "Procedencia": "Lobos",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Gelmetti De Leon, Luciano",
-            "Procedencia": "Campana",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Pousa, Nicolas",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Trobec, Sol",
-            "Procedencia": "Villars",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Mujica Alancay, Maximiliano",
-            "Procedencia": "Lobos",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Cendon Denis, Adriel",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 1.5
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Baez, Cielo",
-            "Procedencia": "Tigre",
-            "Puntos": 1.0
-          }
-        ]
-      },
-      "Fase 2": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Victor, Pedro",
-            "Procedencia": "Lobos",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Areitio, Valentino",
-            "Procedencia": "Luján",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Fernandez, Gianlucca",
-            "Procedencia": "Escobar",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Villar, Lorenzo",
-            "Procedencia": "Campana",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Rivero, Emanuel",
-            "Procedencia": "Suipacha",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Coseglia, Genaro",
-            "Procedencia": "Lobos",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Pousa, Nicolas",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Bahamonde, Lautaro",
-            "Procedencia": "Caba",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Gnazzo, Victoria",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Molina, Samuel",
-            "Procedencia": "Suipacha",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Mujica Alancay, Maximiliano",
-            "Procedencia": "Lobos",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Trobec, Sol",
-            "Procedencia": "Villars",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Villalva, Tobias",
-            "Procedencia": "Suipacha",
-            "Puntos": 1.0
-          }
-        ]
-      },
-      "Fase 3": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Victor, Pedro",
-            "Procedencia": "Lobos",
-            "Puntos": 6.5
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Vedia Caiguara, Alejandro Rider",
-            "Procedencia": "Escobar",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Farias D´Aloisio, Fidel",
-            "Procedencia": "Tigre",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Areitio, Valentino",
-            "Procedencia": "Luján",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Coseglia, Genaro",
-            "Procedencia": "Lobos",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Laforet, Juan Pablo",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Rivero, Emanuel",
-            "Procedencia": "Suipacha",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Fernandez, Gianlucca",
-            "Procedencia": "Escobar",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Molina, Samuel",
-            "Procedencia": "Suipacha",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Mujica Alancay, Maximiliano",
-            "Procedencia": "Lobos",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Villar, Lorenzo",
-            "Procedencia": "Campana",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Pousa, Nicolas",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Trobec, Sol",
-            "Procedencia": "Villars",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Amatriain, Fausto",
-            "Procedencia": "Baradero",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Engers, Mia Yanay",
-            "Procedencia": "Baradero",
-            "Puntos": 1.0
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Larluz, Yamil Jeremias",
-            "Procedencia": "Tigre",
-            "Puntos": 0.0
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Sotomayor Salinas, Sharline Sabrina",
-            "Procedencia": "Baradero",
-            "Puntos": 0.0
-          }
-        ]
-      }
-    },
-    "acumulado_puntos": [
-      {
-        "Jugador": "Victor, Pedro",
-        "Fase 1": 6.0,
-        "Fase 2": 6.0,
-        "Fase 3": 6.5,
-        "Total": 18.5,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Areitio, Valentino",
-        "Fase 1": 5.0,
-        "Fase 2": 6.0,
-        "Fase 3": 4.5,
-        "Total": 15.5,
-        "Procedencia": "Luján"
-      },
-      {
-        "Jugador": "Fernandez, Gianlucca",
-        "Fase 1": 4.0,
-        "Fase 2": 5.0,
-        "Fase 3": 3.5,
-        "Total": 12.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Vedia Caiguara, Alejandro Rider",
-        "Fase 1": 7.0,
-        "Fase 2": 0.0,
-        "Fase 3": 5.5,
-        "Total": 12.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Villar, Lorenzo",
-        "Fase 1": 4.0,
-        "Fase 2": 5.0,
-        "Fase 3": 3.0,
-        "Total": 12.0,
-        "Procedencia": "Campana"
-      },
-      {
-        "Jugador": "Pousa, Nicolas",
-        "Fase 1": 3.0,
-        "Fase 2": 4.0,
-        "Fase 3": 3.0,
-        "Total": 10.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Coseglia, Genaro",
-        "Fase 1": 0.0,
-        "Fase 2": 4.0,
-        "Fase 3": 4.0,
-        "Total": 8.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Trobec, Sol",
-        "Fase 1": 2.5,
-        "Fase 2": 2.5,
-        "Fase 3": 3.0,
-        "Total": 8.0,
-        "Procedencia": "Villars"
-      },
-      {
-        "Jugador": "Mujica Alancay, Maximiliano",
-        "Fase 1": 2.0,
-        "Fase 2": 2.5,
-        "Fase 3": 3.5,
-        "Total": 8.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Rivero, Emanuel",
-        "Fase 1": 0.0,
-        "Fase 2": 4.0,
-        "Fase 3": 4.0,
-        "Total": 8.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Laforet, Juan Pablo",
-        "Fase 1": 3.5,
-        "Fase 2": 0.0,
-        "Fase 3": 4.0,
-        "Total": 7.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Molina, Samuel",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 3.5,
-        "Total": 6.5,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Gnazzo, Victoria",
-        "Fase 1": 3.5,
-        "Fase 2": 3.0,
-        "Fase 3": 0.0,
-        "Total": 6.5,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Farias D´Aloisio, Fidel",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 5.0,
-        "Total": 5.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Gelmetti De Leon, Luciano",
-        "Fase 1": 3.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.5,
-        "Procedencia": "Campana"
-      },
-      {
-        "Jugador": "Bahamonde, Lautaro",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Caba"
-      },
-      {
-        "Jugador": "Amatriain, Fausto",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 2.0,
-        "Total": 2.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Cendon Denis, Adriel",
-        "Fase 1": 1.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.5,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Baez, Cielo",
-        "Fase 1": 1.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Engers, Mia Yanay",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 1.0,
-        "Total": 1.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Villalva, Tobias",
-        "Fase 1": 0.0,
-        "Fase 2": 1.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Larluz, Yamil Jeremias",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Sotomayor Salinas, Sharline Sabrina",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      }
-    ],
-    "acumulado_gp": [
-      {
-        "Jugador": "Victor, Pedro",
-        "Fase 1": 9.0,
-        "Fase 2": 10.0,
-        "Fase 3": 10.0,
-        "Total": 29.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Areitio, Valentino",
-        "Fase 1": 8.0,
-        "Fase 2": 9.0,
-        "Fase 3": 7.0,
-        "Total": 24.0,
-        "Procedencia": "Luján"
-      },
-      {
-        "Jugador": "Vedia Caiguara, Alejandro Rider",
-        "Fase 1": 10.0,
-        "Fase 2": 0.0,
-        "Fase 3": 9.0,
-        "Total": 19.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Fernandez, Gianlucca",
-        "Fase 1": 6.0,
-        "Fase 2": 8.0,
-        "Fase 3": 3.0,
-        "Total": 17.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Villar, Lorenzo",
-        "Fase 1": 7.0,
-        "Fase 2": 7.0,
-        "Fase 3": 0.0,
-        "Total": 14.0,
-        "Procedencia": "Campana"
-      },
-      {
-        "Jugador": "Coseglia, Genaro",
-        "Fase 1": 0.0,
-        "Fase 2": 5.0,
-        "Fase 3": 6.0,
-        "Total": 11.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Rivero, Emanuel",
-        "Fase 1": 0.0,
-        "Fase 2": 6.0,
-        "Fase 3": 4.0,
-        "Total": 10.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Laforet, Juan Pablo",
-        "Fase 1": 5.0,
-        "Fase 2": 0.0,
-        "Fase 3": 5.0,
-        "Total": 10.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Farias D´Aloisio, Fidel",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 8.0,
-        "Total": 8.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Pousa, Nicolas",
-        "Fase 1": 2.0,
-        "Fase 2": 4.0,
-        "Fase 3": 0.0,
-        "Total": 6.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Gnazzo, Victoria",
-        "Fase 1": 4.0,
-        "Fase 2": 2.0,
-        "Fase 3": 0.0,
-        "Total": 6.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Bahamonde, Lautaro",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Caba"
-      },
-      {
-        "Jugador": "Gelmetti De Leon, Luciano",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Campana"
-      },
-      {
-        "Jugador": "Molina, Samuel",
-        "Fase 1": 0.0,
-        "Fase 2": 1.0,
-        "Fase 3": 2.0,
-        "Total": 3.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Mujica Alancay, Maximiliano",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 1.0,
-        "Total": 1.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Trobec, Sol",
-        "Fase 1": 1.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.0,
-        "Procedencia": "Villars"
-      },
-      {
-        "Jugador": "Cendon Denis, Adriel",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Amatriain, Fausto",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Baez, Cielo",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Engers, Mia Yanay",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Larluz, Yamil Jeremias",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Sotomayor Salinas, Sharline Sabrina",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Villalva, Tobias",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Suipacha"
-      }
-    ]
-  },
-  "Sub-10": {
-    "fases_nombres": [
-      "Fase 1",
-      "Fase 2",
-      "Fase 3"
-    ],
-    "fases": {
-      "Fase 1": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Pentray, Mirko",
-            "Procedencia": "Lobos",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Montilla Pereda, Ernesto",
-            "Procedencia": "Tigre",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Garcia Della Vecchia, Agustin",
-            "Procedencia": "San Miguel",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Edrosa, Joaquin",
-            "Procedencia": "Luján",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Dominguez, Segundo",
-            "Procedencia": "Escobar",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Actis Grosso, Lisandro",
-            "Procedencia": "Lobos",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Gallegos, Olivia Isabel",
-            "Procedencia": "Jauregui",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Loiza, Felipe",
-            "Procedencia": "Lobos",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Silvetti Cifulella, Tiziano",
-            "Procedencia": "Jauregui",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Erro, Valentin",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Gonzalez, Julieta",
-            "Procedencia": "-",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Stanganelli, Luca Tomas",
-            "Procedencia": "Escobar",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Carley, Tomas",
-            "Procedencia": "-",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Pazos, Enzo",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Gonzalez, Lucas Gonzalez",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Mionis, Felipe",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Ciani, Cipriano",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 18,
-            "Jugador": "Realini, Nael",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 19,
-            "Jugador": "Cotta, Lautaro",
-            "Procedencia": "Suipacha",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 20,
-            "Jugador": "Rodriguez, Delfina",
-            "Procedencia": "Escobar",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 21,
-            "Jugador": "Grotiuz, Bautista",
-            "Procedencia": "Tigre",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 22,
-            "Jugador": "Freites, Bella",
-            "Procedencia": "Escobar",
-            "Puntos": 1.5
-          },
-          {
-            "Posicion": 23,
-            "Jugador": "Trobec, Victoria",
-            "Procedencia": "Villars",
-            "Puntos": 1.5
-          }
-        ]
-      },
-      "Fase 2": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Di Bernardini, Ciro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Montilla Pereda, Ernesto",
-            "Procedencia": "Tigre",
-            "Puntos": 6.0
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Pentray, Mirko",
-            "Procedencia": "Lobos",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Silvetti Cifulella, Tiziano",
-            "Procedencia": "Jauregui",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Stanganelli, Luca Tomas",
-            "Procedencia": "Escobar",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Rios, Alejo Francisco",
-            "Procedencia": "Escobar",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Ciani, Cipriano",
-            "Procedencia": "Lobos",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Gomez Padula, Benicio",
-            "Procedencia": "Mercedes",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Dominguez, Segundo",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Erro, Valentin",
-            "Procedencia": "Escobar",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Loiza, Felipe",
-            "Procedencia": "Lobos",
-            "Puntos": 3.5
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Carley, Tomas",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Gonzalez, Julieta",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Cotta, Lautaro",
-            "Procedencia": "Suipacha",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Pavon, Francisco",
-            "Procedencia": "-",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Grotiuz, Bautista",
-            "Procedencia": "Tigre",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Realini, Nael",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 18,
-            "Jugador": "Edrosa, Joaquin",
-            "Procedencia": "Luján",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 19,
-            "Jugador": "Pazos, Enzo",
-            "Procedencia": "Lobos",
-            "Puntos": 2.5
-          },
-          {
-            "Posicion": 20,
-            "Jugador": "Sigampa, Simon Felix",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 21,
-            "Jugador": "Trobec, Victoria",
-            "Procedencia": "Villars",
-            "Puntos": 1.0
-          }
-        ]
-      },
-      "Fase 3": {
-        "link_chess_results": "#",
-        "resultados": [
-          {
-            "Posicion": 1,
-            "Jugador": "Di Bernardini, Ciro",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 6.5
-          },
-          {
-            "Posicion": 2,
-            "Jugador": "Pentray, Mirko",
-            "Procedencia": "Lobos",
-            "Puntos": 5.5
-          },
-          {
-            "Posicion": 3,
-            "Jugador": "Dominguez, Segundo",
-            "Procedencia": "Escobar",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 4,
-            "Jugador": "Silvetti Cifulella, Tiziano",
-            "Procedencia": "Jauregui",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 5,
-            "Jugador": "Erro, Valentin",
-            "Procedencia": "Escobar",
-            "Puntos": 5.0
-          },
-          {
-            "Posicion": 6,
-            "Jugador": "Stanganelli, Luca Tomas",
-            "Procedencia": "Escobar",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 7,
-            "Jugador": "Aieta, Tomas",
-            "Procedencia": "Baradero",
-            "Puntos": 4.5
-          },
-          {
-            "Posicion": 8,
-            "Jugador": "Gallegos, Olivia Isabel",
-            "Procedencia": "Luján",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 9,
-            "Jugador": "Actis Grosso, Lisandro",
-            "Procedencia": "Lobos",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 10,
-            "Jugador": "Cotta, Lautaro",
-            "Procedencia": "Suipacha",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 11,
-            "Jugador": "Gomez Padula, Benicio",
-            "Procedencia": "Mercedes",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 12,
-            "Jugador": "Grotiuz, Bautista",
-            "Procedencia": "Tigre",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 13,
-            "Jugador": "Edrosa, Joaquin",
-            "Procedencia": "Luján",
-            "Puntos": 4.0
-          },
-          {
-            "Posicion": 14,
-            "Jugador": "Carley, Tomas",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 15,
-            "Jugador": "Engers, Bastian Augusto",
-            "Procedencia": "Baradero",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 16,
-            "Jugador": "Fernandez, Emma",
-            "Procedencia": "Tigre",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 17,
-            "Jugador": "Laforet, Isabella",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 18,
-            "Jugador": "Gonzalez, Julieta",
-            "Procedencia": "Escobar",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 19,
-            "Jugador": "Realini, Nael",
-            "Procedencia": "Lobos",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 20,
-            "Jugador": "Di Castelnuovo Rugolotto, Julia",
-            "Procedencia": "Tigre",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 21,
-            "Jugador": "Sotomayor, Sharlene",
-            "Procedencia": "-",
-            "Puntos": 3.0
-          },
-          {
-            "Posicion": 22,
-            "Jugador": "Cejas, Ian Sebastian",
-            "Procedencia": "Baradero",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 23,
-            "Jugador": "Sigampa, Simon Felix",
-            "Procedencia": "General Rodríguez",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 24,
-            "Jugador": "Wierna, Martin",
-            "Procedencia": "Tigre",
-            "Puntos": 2.0
-          },
-          {
-            "Posicion": 25,
-            "Jugador": "Trobec, Victoria",
-            "Procedencia": "Villars",
-            "Puntos": 1.0
-          },
-          {
-            "Posicion": 26,
-            "Jugador": "Pavon, Ian Francesco",
-            "Procedencia": "Tigre",
-            "Puntos": 0.0
-          }
-        ]
-      }
-    },
-    "acumulado_puntos": [
-      {
-        "Jugador": "Pentray, Mirko",
-        "Fase 1": 6.0,
-        "Fase 2": 5.0,
-        "Fase 3": 5.5,
-        "Total": 16.5,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Silvetti Cifulella, Tiziano",
-        "Fase 1": 4.0,
-        "Fase 2": 5.0,
-        "Fase 3": 5.0,
-        "Total": 14.0,
-        "Procedencia": "Jauregui"
-      },
-      {
-        "Jugador": "Dominguez, Segundo",
-        "Fase 1": 4.5,
-        "Fase 2": 4.0,
-        "Fase 3": 5.0,
-        "Total": 13.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Erro, Valentin",
-        "Fase 1": 4.0,
-        "Fase 2": 4.0,
-        "Fase 3": 5.0,
-        "Total": 13.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Stanganelli, Luca Tomas",
-        "Fase 1": 3.5,
-        "Fase 2": 5.0,
-        "Fase 3": 4.5,
-        "Total": 13.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Di Bernardini, Ciro",
-        "Fase 1": 0.0,
-        "Fase 2": 6.0,
-        "Fase 3": 6.5,
-        "Total": 12.5,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Montilla Pereda, Ernesto",
-        "Fase 1": 6.0,
-        "Fase 2": 6.0,
-        "Fase 3": 0.0,
-        "Total": 12.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Edrosa, Joaquin",
-        "Fase 1": 5.0,
-        "Fase 2": 2.5,
-        "Fase 3": 4.0,
-        "Total": 11.5,
-        "Procedencia": "Luján"
-      },
-      {
-        "Jugador": "Cotta, Lautaro",
-        "Fase 1": 3.0,
-        "Fase 2": 3.0,
-        "Fase 3": 4.0,
-        "Total": 10.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Gonzalez, Julieta",
-        "Fase 1": 4.0,
-        "Fase 2": 3.0,
-        "Fase 3": 3.0,
-        "Total": 10.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Carley, Tomas",
-        "Fase 1": 3.0,
-        "Fase 2": 3.0,
-        "Fase 3": 3.0,
-        "Total": 9.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Grotiuz, Bautista",
-        "Fase 1": 2.0,
-        "Fase 2": 3.0,
-        "Fase 3": 4.0,
-        "Total": 9.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Realini, Nael",
-        "Fase 1": 3.0,
-        "Fase 2": 3.0,
-        "Fase 3": 3.0,
-        "Total": 9.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Gallegos, Olivia Isabel",
-        "Fase 1": 4.5,
-        "Fase 2": 0.0,
-        "Fase 3": 4.0,
-        "Total": 8.5,
-        "Procedencia": "Luján"
-      },
-      {
-        "Jugador": "Actis Grosso, Lisandro",
-        "Fase 1": 4.5,
-        "Fase 2": 0.0,
-        "Fase 3": 4.0,
-        "Total": 8.5,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Loiza, Felipe",
-        "Fase 1": 4.5,
-        "Fase 2": 3.5,
-        "Fase 3": 0.0,
-        "Total": 8.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Gomez Padula, Benicio",
-        "Fase 1": 0.0,
-        "Fase 2": 4.0,
-        "Fase 3": 4.0,
-        "Total": 8.0,
-        "Procedencia": "Mercedes"
-      },
-      {
-        "Jugador": "Ciani, Cipriano",
-        "Fase 1": 3.0,
-        "Fase 2": 4.0,
-        "Fase 3": 0.0,
-        "Total": 7.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Pazos, Enzo",
-        "Fase 1": 3.0,
-        "Fase 2": 2.5,
-        "Fase 3": 0.0,
-        "Total": 5.5,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Garcia Della Vecchia, Agustin",
-        "Fase 1": 5.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 5.0,
-        "Procedencia": "San Miguel"
-      },
-      {
-        "Jugador": "Aieta, Tomas",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 4.5,
-        "Total": 4.5,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Rios, Alejo Francisco",
-        "Fase 1": 0.0,
-        "Fase 2": 4.5,
-        "Fase 3": 0.0,
-        "Total": 4.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Sigampa, Simon Felix",
-        "Fase 1": 0.0,
-        "Fase 2": 2.0,
-        "Fase 3": 2.0,
-        "Total": 4.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Trobec, Victoria",
-        "Fase 1": 1.5,
-        "Fase 2": 1.0,
-        "Fase 3": 1.0,
-        "Total": 3.5,
-        "Procedencia": "Villars"
-      },
-      {
-        "Jugador": "Sotomayor, Sharlene",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "-"
-      },
-      {
-        "Jugador": "Engers, Bastian Augusto",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Di Castelnuovo Rugolotto, Julia",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Gonzalez, Lucas Gonzalez",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Fernandez, Emma",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Mionis, Felipe",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Laforet, Isabella",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 3.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Pavon, Francisco",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "-"
-      },
-      {
-        "Jugador": "Rodriguez, Delfina",
-        "Fase 1": 2.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 2.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Cejas, Ian Sebastian",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 2.0,
-        "Total": 2.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Wierna, Martin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 2.0,
-        "Total": 2.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Freites, Bella",
-        "Fase 1": 1.5,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 1.5,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Pavon, Ian Francesco",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      }
-    ],
-    "acumulado_gp": [
-      {
-        "Jugador": "Pentray, Mirko",
-        "Fase 1": 10.0,
-        "Fase 2": 8.0,
-        "Fase 3": 9.0,
-        "Total": 27.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Di Bernardini, Ciro",
-        "Fase 1": 0.0,
-        "Fase 2": 10.0,
-        "Fase 3": 10.0,
-        "Total": 20.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Montilla Pereda, Ernesto",
-        "Fase 1": 9.0,
-        "Fase 2": 9.0,
-        "Fase 3": 0.0,
-        "Total": 18.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Dominguez, Segundo",
-        "Fase 1": 6.0,
-        "Fase 2": 2.0,
-        "Fase 3": 8.0,
-        "Total": 16.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Silvetti Cifulella, Tiziano",
-        "Fase 1": 2.0,
-        "Fase 2": 7.0,
-        "Fase 3": 7.0,
-        "Total": 16.0,
-        "Procedencia": "Jauregui"
-      },
-      {
-        "Jugador": "Stanganelli, Luca Tomas",
-        "Fase 1": 0.0,
-        "Fase 2": 6.0,
-        "Fase 3": 5.0,
-        "Total": 11.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Erro, Valentin",
-        "Fase 1": 1.0,
-        "Fase 2": 1.0,
-        "Fase 3": 6.0,
-        "Total": 8.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Garcia Della Vecchia, Agustin",
-        "Fase 1": 8.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 8.0,
-        "Procedencia": "San Miguel"
-      },
-      {
-        "Jugador": "Gallegos, Olivia Isabel",
-        "Fase 1": 4.0,
-        "Fase 2": 0.0,
-        "Fase 3": 3.0,
-        "Total": 7.0,
-        "Procedencia": "Luján"
-      },
-      {
-        "Jugador": "Actis Grosso, Lisandro",
-        "Fase 1": 5.0,
-        "Fase 2": 0.0,
-        "Fase 3": 2.0,
-        "Total": 7.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Edrosa, Joaquin",
-        "Fase 1": 7.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 7.0,
-        "Procedencia": "Luján"
-      },
-      {
-        "Jugador": "Rios, Alejo Francisco",
-        "Fase 1": 0.0,
-        "Fase 2": 5.0,
-        "Fase 3": 0.0,
-        "Total": 5.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Aieta, Tomas",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 4.0,
-        "Total": 4.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Ciani, Cipriano",
-        "Fase 1": 0.0,
-        "Fase 2": 4.0,
-        "Fase 3": 0.0,
-        "Total": 4.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Loiza, Felipe",
-        "Fase 1": 3.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Gomez Padula, Benicio",
-        "Fase 1": 0.0,
-        "Fase 2": 3.0,
-        "Fase 3": 0.0,
-        "Total": 3.0,
-        "Procedencia": "Mercedes"
-      },
-      {
-        "Jugador": "Cotta, Lautaro",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 1.0,
-        "Total": 1.0,
-        "Procedencia": "Suipacha"
-      },
-      {
-        "Jugador": "Cejas, Ian Sebastian",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Carley, Tomas",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Fernandez, Emma",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Engers, Bastian Augusto",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Baradero"
-      },
-      {
-        "Jugador": "Laforet, Isabella",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Grotiuz, Bautista",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Gonzalez, Lucas Gonzalez",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Gonzalez, Julieta",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Freites, Bella",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Di Castelnuovo Rugolotto, Julia",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Pavon, Francisco",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "-"
-      },
-      {
-        "Jugador": "Mionis, Felipe",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Realini, Nael",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Pazos, Enzo",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Lobos"
-      },
-      {
-        "Jugador": "Pavon, Ian Francesco",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      },
-      {
-        "Jugador": "Rodriguez, Delfina",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Escobar"
-      },
-      {
-        "Jugador": "Sigampa, Simon Felix",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "General Rodríguez"
-      },
-      {
-        "Jugador": "Sotomayor, Sharlene",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "-"
-      },
-      {
-        "Jugador": "Trobec, Victoria",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Villars"
-      },
-      {
-        "Jugador": "Wierna, Martin",
-        "Fase 1": 0.0,
-        "Fase 2": 0.0,
-        "Fase 3": 0.0,
-        "Total": 0.0,
-        "Procedencia": "Tigre"
-      }
-    ]
-  },
   "Sub-14": {
     "fases_nombres": [
       "Fase 1",
@@ -5674,6 +2670,1046 @@
         "Fase 3": 0.0,
         "Total": 0.0,
         "Procedencia": "Lobos"
+      }
+    ]
+  },
+  "Sub-10": {
+    "fases_nombres": [
+      "Fase 1",
+      "Fase 2",
+      "Fase 3"
+    ],
+    "fases": {
+      "Fase 1": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Pentray, Mirko",
+            "Procedencia": "Lobos",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Montilla Pereda, Ernesto",
+            "Procedencia": "Tigre",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Garcia Della Vecchia, Agustin",
+            "Procedencia": "San Miguel",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Edrosa, Joaquin",
+            "Procedencia": "Luján",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Dominguez, Segundo",
+            "Procedencia": "Escobar",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Actis Grosso, Lisandro",
+            "Procedencia": "Lobos",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Gallegos, Olivia Isabel",
+            "Procedencia": "Jauregui",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Loiza, Felipe",
+            "Procedencia": "Lobos",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Silvetti Cifulella, Tiziano",
+            "Procedencia": "Jauregui",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Erro, Valentin",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Gonzalez, Julieta",
+            "Procedencia": "-",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Stanganelli, Luca Tomas",
+            "Procedencia": "Escobar",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Carley, Tomas",
+            "Procedencia": "-",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Pazos, Enzo",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Gonzalez, Lucas Gonzalez",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Mionis, Felipe",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Ciani, Cipriano",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 18,
+            "Jugador": "Realini, Nael",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 19,
+            "Jugador": "Cotta, Lautaro",
+            "Procedencia": "Suipacha",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 20,
+            "Jugador": "Rodriguez, Delfina",
+            "Procedencia": "Escobar",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 21,
+            "Jugador": "Grotiuz, Bautista",
+            "Procedencia": "Tigre",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 22,
+            "Jugador": "Freites, Bella",
+            "Procedencia": "Escobar",
+            "Puntos": 1.5
+          },
+          {
+            "Posicion": 23,
+            "Jugador": "Trobec, Victoria",
+            "Procedencia": "Villars",
+            "Puntos": 1.5
+          }
+        ]
+      },
+      "Fase 2": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Di Bernardini, Ciro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Montilla Pereda, Ernesto",
+            "Procedencia": "Tigre",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Pentray, Mirko",
+            "Procedencia": "Lobos",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Silvetti Cifulella, Tiziano",
+            "Procedencia": "Jauregui",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Stanganelli, Luca Tomas",
+            "Procedencia": "Escobar",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Rios, Alejo Francisco",
+            "Procedencia": "Escobar",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Ciani, Cipriano",
+            "Procedencia": "Lobos",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Gomez Padula, Benicio",
+            "Procedencia": "Mercedes",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Dominguez, Segundo",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Erro, Valentin",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Loiza, Felipe",
+            "Procedencia": "Lobos",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Carley, Tomas",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Gonzalez, Julieta",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Cotta, Lautaro",
+            "Procedencia": "Suipacha",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Pavon, Francisco",
+            "Procedencia": "-",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Grotiuz, Bautista",
+            "Procedencia": "Tigre",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Realini, Nael",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 18,
+            "Jugador": "Edrosa, Joaquin",
+            "Procedencia": "Luján",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 19,
+            "Jugador": "Pazos, Enzo",
+            "Procedencia": "Lobos",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 20,
+            "Jugador": "Sigampa, Simon Felix",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 21,
+            "Jugador": "Trobec, Victoria",
+            "Procedencia": "Villars",
+            "Puntos": 1.0
+          }
+        ]
+      },
+      "Fase 3": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Di Bernardini, Ciro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 6.5
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Pentray, Mirko",
+            "Procedencia": "Lobos",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Dominguez, Segundo",
+            "Procedencia": "Escobar",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Silvetti Cifulella, Tiziano",
+            "Procedencia": "Jauregui",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Erro, Valentin",
+            "Procedencia": "Escobar",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Stanganelli, Luca Tomas",
+            "Procedencia": "Escobar",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Aieta, Tomas",
+            "Procedencia": "Baradero",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Gallegos, Olivia Isabel",
+            "Procedencia": "Luján",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Actis Grosso, Lisandro",
+            "Procedencia": "Lobos",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Cotta, Lautaro",
+            "Procedencia": "Suipacha",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Gomez Padula, Benicio",
+            "Procedencia": "Mercedes",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Grotiuz, Bautista",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Edrosa, Joaquin",
+            "Procedencia": "Luján",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Carley, Tomas",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Engers, Bastian Augusto",
+            "Procedencia": "Baradero",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Fernandez, Emma",
+            "Procedencia": "Tigre",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Laforet, Isabella",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 18,
+            "Jugador": "Gonzalez, Julieta",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 19,
+            "Jugador": "Realini, Nael",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 20,
+            "Jugador": "Di Castelnuovo Rugolotto, Julia",
+            "Procedencia": "Tigre",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 21,
+            "Jugador": "Sotomayor, Sharlene",
+            "Procedencia": "-",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 22,
+            "Jugador": "Cejas, Ian Sebastian",
+            "Procedencia": "Baradero",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 23,
+            "Jugador": "Sigampa, Simon Felix",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 24,
+            "Jugador": "Wierna, Martin",
+            "Procedencia": "Tigre",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 25,
+            "Jugador": "Trobec, Victoria",
+            "Procedencia": "Villars",
+            "Puntos": 1.0
+          },
+          {
+            "Posicion": 26,
+            "Jugador": "Pavon, Ian Francesco",
+            "Procedencia": "Tigre",
+            "Puntos": 0.0
+          }
+        ]
+      }
+    },
+    "acumulado_puntos": [
+      {
+        "Jugador": "Pentray, Mirko",
+        "Fase 1": 6.0,
+        "Fase 2": 5.0,
+        "Fase 3": 5.5,
+        "Total": 16.5,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Silvetti Cifulella, Tiziano",
+        "Fase 1": 4.0,
+        "Fase 2": 5.0,
+        "Fase 3": 5.0,
+        "Total": 14.0,
+        "Procedencia": "Jauregui"
+      },
+      {
+        "Jugador": "Dominguez, Segundo",
+        "Fase 1": 4.5,
+        "Fase 2": 4.0,
+        "Fase 3": 5.0,
+        "Total": 13.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Erro, Valentin",
+        "Fase 1": 4.0,
+        "Fase 2": 4.0,
+        "Fase 3": 5.0,
+        "Total": 13.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Stanganelli, Luca Tomas",
+        "Fase 1": 3.5,
+        "Fase 2": 5.0,
+        "Fase 3": 4.5,
+        "Total": 13.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Di Bernardini, Ciro",
+        "Fase 1": 0.0,
+        "Fase 2": 6.0,
+        "Fase 3": 6.5,
+        "Total": 12.5,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Montilla Pereda, Ernesto",
+        "Fase 1": 6.0,
+        "Fase 2": 6.0,
+        "Fase 3": 0.0,
+        "Total": 12.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Edrosa, Joaquin",
+        "Fase 1": 5.0,
+        "Fase 2": 2.5,
+        "Fase 3": 4.0,
+        "Total": 11.5,
+        "Procedencia": "Luján"
+      },
+      {
+        "Jugador": "Cotta, Lautaro",
+        "Fase 1": 3.0,
+        "Fase 2": 3.0,
+        "Fase 3": 4.0,
+        "Total": 10.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Gonzalez, Julieta",
+        "Fase 1": 4.0,
+        "Fase 2": 3.0,
+        "Fase 3": 3.0,
+        "Total": 10.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Carley, Tomas",
+        "Fase 1": 3.0,
+        "Fase 2": 3.0,
+        "Fase 3": 3.0,
+        "Total": 9.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Grotiuz, Bautista",
+        "Fase 1": 2.0,
+        "Fase 2": 3.0,
+        "Fase 3": 4.0,
+        "Total": 9.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Realini, Nael",
+        "Fase 1": 3.0,
+        "Fase 2": 3.0,
+        "Fase 3": 3.0,
+        "Total": 9.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Gallegos, Olivia Isabel",
+        "Fase 1": 4.5,
+        "Fase 2": 0.0,
+        "Fase 3": 4.0,
+        "Total": 8.5,
+        "Procedencia": "Luján"
+      },
+      {
+        "Jugador": "Actis Grosso, Lisandro",
+        "Fase 1": 4.5,
+        "Fase 2": 0.0,
+        "Fase 3": 4.0,
+        "Total": 8.5,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Loiza, Felipe",
+        "Fase 1": 4.5,
+        "Fase 2": 3.5,
+        "Fase 3": 0.0,
+        "Total": 8.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Gomez Padula, Benicio",
+        "Fase 1": 0.0,
+        "Fase 2": 4.0,
+        "Fase 3": 4.0,
+        "Total": 8.0,
+        "Procedencia": "Mercedes"
+      },
+      {
+        "Jugador": "Ciani, Cipriano",
+        "Fase 1": 3.0,
+        "Fase 2": 4.0,
+        "Fase 3": 0.0,
+        "Total": 7.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Pazos, Enzo",
+        "Fase 1": 3.0,
+        "Fase 2": 2.5,
+        "Fase 3": 0.0,
+        "Total": 5.5,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Garcia Della Vecchia, Agustin",
+        "Fase 1": 5.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 5.0,
+        "Procedencia": "San Miguel"
+      },
+      {
+        "Jugador": "Aieta, Tomas",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 4.5,
+        "Total": 4.5,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Rios, Alejo Francisco",
+        "Fase 1": 0.0,
+        "Fase 2": 4.5,
+        "Fase 3": 0.0,
+        "Total": 4.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Sigampa, Simon Felix",
+        "Fase 1": 0.0,
+        "Fase 2": 2.0,
+        "Fase 3": 2.0,
+        "Total": 4.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Trobec, Victoria",
+        "Fase 1": 1.5,
+        "Fase 2": 1.0,
+        "Fase 3": 1.0,
+        "Total": 3.5,
+        "Procedencia": "Villars"
+      },
+      {
+        "Jugador": "Sotomayor, Sharlene",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "-"
+      },
+      {
+        "Jugador": "Engers, Bastian Augusto",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Di Castelnuovo Rugolotto, Julia",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Gonzalez, Lucas Gonzalez",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Fernandez, Emma",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Mionis, Felipe",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Laforet, Isabella",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Pavon, Francisco",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "-"
+      },
+      {
+        "Jugador": "Rodriguez, Delfina",
+        "Fase 1": 2.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 2.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Cejas, Ian Sebastian",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 2.0,
+        "Total": 2.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Wierna, Martin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 2.0,
+        "Total": 2.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Freites, Bella",
+        "Fase 1": 1.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Pavon, Ian Francesco",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      }
+    ],
+    "acumulado_gp": [
+      {
+        "Jugador": "Pentray, Mirko",
+        "Fase 1": 10.0,
+        "Fase 2": 8.0,
+        "Fase 3": 9.0,
+        "Total": 27.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Di Bernardini, Ciro",
+        "Fase 1": 0.0,
+        "Fase 2": 10.0,
+        "Fase 3": 10.0,
+        "Total": 20.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Montilla Pereda, Ernesto",
+        "Fase 1": 9.0,
+        "Fase 2": 9.0,
+        "Fase 3": 0.0,
+        "Total": 18.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Dominguez, Segundo",
+        "Fase 1": 6.0,
+        "Fase 2": 2.0,
+        "Fase 3": 8.0,
+        "Total": 16.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Silvetti Cifulella, Tiziano",
+        "Fase 1": 2.0,
+        "Fase 2": 7.0,
+        "Fase 3": 7.0,
+        "Total": 16.0,
+        "Procedencia": "Jauregui"
+      },
+      {
+        "Jugador": "Stanganelli, Luca Tomas",
+        "Fase 1": 0.0,
+        "Fase 2": 6.0,
+        "Fase 3": 5.0,
+        "Total": 11.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Erro, Valentin",
+        "Fase 1": 1.0,
+        "Fase 2": 1.0,
+        "Fase 3": 6.0,
+        "Total": 8.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Garcia Della Vecchia, Agustin",
+        "Fase 1": 8.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 8.0,
+        "Procedencia": "San Miguel"
+      },
+      {
+        "Jugador": "Gallegos, Olivia Isabel",
+        "Fase 1": 4.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 7.0,
+        "Procedencia": "Luján"
+      },
+      {
+        "Jugador": "Actis Grosso, Lisandro",
+        "Fase 1": 5.0,
+        "Fase 2": 0.0,
+        "Fase 3": 2.0,
+        "Total": 7.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Edrosa, Joaquin",
+        "Fase 1": 7.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 7.0,
+        "Procedencia": "Luján"
+      },
+      {
+        "Jugador": "Rios, Alejo Francisco",
+        "Fase 1": 0.0,
+        "Fase 2": 5.0,
+        "Fase 3": 0.0,
+        "Total": 5.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Aieta, Tomas",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 4.0,
+        "Total": 4.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Ciani, Cipriano",
+        "Fase 1": 0.0,
+        "Fase 2": 4.0,
+        "Fase 3": 0.0,
+        "Total": 4.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Loiza, Felipe",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Gomez Padula, Benicio",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Mercedes"
+      },
+      {
+        "Jugador": "Cotta, Lautaro",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 1.0,
+        "Total": 1.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Cejas, Ian Sebastian",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Carley, Tomas",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Fernandez, Emma",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Engers, Bastian Augusto",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Laforet, Isabella",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Grotiuz, Bautista",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Gonzalez, Lucas Gonzalez",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Gonzalez, Julieta",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Freites, Bella",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Di Castelnuovo Rugolotto, Julia",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Pavon, Francisco",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "-"
+      },
+      {
+        "Jugador": "Mionis, Felipe",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Realini, Nael",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Pazos, Enzo",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Pavon, Ian Francesco",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Rodriguez, Delfina",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Sigampa, Simon Felix",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Sotomayor, Sharlene",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "-"
+      },
+      {
+        "Jugador": "Trobec, Victoria",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Villars"
+      },
+      {
+        "Jugador": "Wierna, Martin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
       }
     ]
   },
@@ -8554,6 +6590,1970 @@
         "Fase 3": 0.0,
         "Total": 0.0,
         "Procedencia": "Tigre"
+      }
+    ]
+  },
+  "Sub-8": {
+    "fases_nombres": [
+      "Fase 1",
+      "Fase 2",
+      "Fase 3"
+    ],
+    "fases": {
+      "Fase 1": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Vedia Caiguara, Alejandro Rider",
+            "Procedencia": "Escobar",
+            "Puntos": 7.0
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Victor, Pedro",
+            "Procedencia": "Lobos",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Areitio, Valentino",
+            "Procedencia": "Luján",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Villar, Lorenzo",
+            "Procedencia": "Campana",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Fernandez, Gianlucca",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Laforet, Juan Pablo",
+            "Procedencia": "Escobar",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Gnazzo, Victoria",
+            "Procedencia": "Lobos",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Gelmetti De Leon, Luciano",
+            "Procedencia": "Campana",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Pousa, Nicolas",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Trobec, Sol",
+            "Procedencia": "Villars",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Mujica Alancay, Maximiliano",
+            "Procedencia": "Lobos",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Cendon Denis, Adriel",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 1.5
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Baez, Cielo",
+            "Procedencia": "Tigre",
+            "Puntos": 1.0
+          }
+        ]
+      },
+      "Fase 2": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Victor, Pedro",
+            "Procedencia": "Lobos",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Areitio, Valentino",
+            "Procedencia": "Luján",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Fernandez, Gianlucca",
+            "Procedencia": "Escobar",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Villar, Lorenzo",
+            "Procedencia": "Campana",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Rivero, Emanuel",
+            "Procedencia": "Suipacha",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Coseglia, Genaro",
+            "Procedencia": "Lobos",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Pousa, Nicolas",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Bahamonde, Lautaro",
+            "Procedencia": "Caba",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Gnazzo, Victoria",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Molina, Samuel",
+            "Procedencia": "Suipacha",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Mujica Alancay, Maximiliano",
+            "Procedencia": "Lobos",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Trobec, Sol",
+            "Procedencia": "Villars",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Villalva, Tobias",
+            "Procedencia": "Suipacha",
+            "Puntos": 1.0
+          }
+        ]
+      },
+      "Fase 3": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Victor, Pedro",
+            "Procedencia": "Lobos",
+            "Puntos": 6.5
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Vedia Caiguara, Alejandro Rider",
+            "Procedencia": "Escobar",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Farias D´Aloisio, Fidel",
+            "Procedencia": "Tigre",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Areitio, Valentino",
+            "Procedencia": "Luján",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Coseglia, Genaro",
+            "Procedencia": "Lobos",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Laforet, Juan Pablo",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Rivero, Emanuel",
+            "Procedencia": "Suipacha",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Fernandez, Gianlucca",
+            "Procedencia": "Escobar",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Molina, Samuel",
+            "Procedencia": "Suipacha",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Mujica Alancay, Maximiliano",
+            "Procedencia": "Lobos",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Villar, Lorenzo",
+            "Procedencia": "Campana",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Pousa, Nicolas",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Trobec, Sol",
+            "Procedencia": "Villars",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Amatriain, Fausto",
+            "Procedencia": "Baradero",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Engers, Mia Yanay",
+            "Procedencia": "Baradero",
+            "Puntos": 1.0
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Larluz, Yamil Jeremias",
+            "Procedencia": "Tigre",
+            "Puntos": 0.0
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Sotomayor Salinas, Sharline Sabrina",
+            "Procedencia": "Baradero",
+            "Puntos": 0.0
+          }
+        ]
+      }
+    },
+    "acumulado_puntos": [
+      {
+        "Jugador": "Victor, Pedro",
+        "Fase 1": 6.0,
+        "Fase 2": 6.0,
+        "Fase 3": 6.5,
+        "Total": 18.5,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Areitio, Valentino",
+        "Fase 1": 5.0,
+        "Fase 2": 6.0,
+        "Fase 3": 4.5,
+        "Total": 15.5,
+        "Procedencia": "Luján"
+      },
+      {
+        "Jugador": "Fernandez, Gianlucca",
+        "Fase 1": 4.0,
+        "Fase 2": 5.0,
+        "Fase 3": 3.5,
+        "Total": 12.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Vedia Caiguara, Alejandro Rider",
+        "Fase 1": 7.0,
+        "Fase 2": 0.0,
+        "Fase 3": 5.5,
+        "Total": 12.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Villar, Lorenzo",
+        "Fase 1": 4.0,
+        "Fase 2": 5.0,
+        "Fase 3": 3.0,
+        "Total": 12.0,
+        "Procedencia": "Campana"
+      },
+      {
+        "Jugador": "Pousa, Nicolas",
+        "Fase 1": 3.0,
+        "Fase 2": 4.0,
+        "Fase 3": 3.0,
+        "Total": 10.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Coseglia, Genaro",
+        "Fase 1": 0.0,
+        "Fase 2": 4.0,
+        "Fase 3": 4.0,
+        "Total": 8.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Trobec, Sol",
+        "Fase 1": 2.5,
+        "Fase 2": 2.5,
+        "Fase 3": 3.0,
+        "Total": 8.0,
+        "Procedencia": "Villars"
+      },
+      {
+        "Jugador": "Mujica Alancay, Maximiliano",
+        "Fase 1": 2.0,
+        "Fase 2": 2.5,
+        "Fase 3": 3.5,
+        "Total": 8.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Rivero, Emanuel",
+        "Fase 1": 0.0,
+        "Fase 2": 4.0,
+        "Fase 3": 4.0,
+        "Total": 8.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Laforet, Juan Pablo",
+        "Fase 1": 3.5,
+        "Fase 2": 0.0,
+        "Fase 3": 4.0,
+        "Total": 7.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Molina, Samuel",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 3.5,
+        "Total": 6.5,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Gnazzo, Victoria",
+        "Fase 1": 3.5,
+        "Fase 2": 3.0,
+        "Fase 3": 0.0,
+        "Total": 6.5,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Farias D´Aloisio, Fidel",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 5.0,
+        "Total": 5.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Gelmetti De Leon, Luciano",
+        "Fase 1": 3.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.5,
+        "Procedencia": "Campana"
+      },
+      {
+        "Jugador": "Bahamonde, Lautaro",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Caba"
+      },
+      {
+        "Jugador": "Amatriain, Fausto",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 2.0,
+        "Total": 2.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Cendon Denis, Adriel",
+        "Fase 1": 1.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.5,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Baez, Cielo",
+        "Fase 1": 1.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Engers, Mia Yanay",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 1.0,
+        "Total": 1.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Villalva, Tobias",
+        "Fase 1": 0.0,
+        "Fase 2": 1.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Larluz, Yamil Jeremias",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Sotomayor Salinas, Sharline Sabrina",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      }
+    ],
+    "acumulado_gp": [
+      {
+        "Jugador": "Victor, Pedro",
+        "Fase 1": 9.0,
+        "Fase 2": 10.0,
+        "Fase 3": 10.0,
+        "Total": 29.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Areitio, Valentino",
+        "Fase 1": 8.0,
+        "Fase 2": 9.0,
+        "Fase 3": 7.0,
+        "Total": 24.0,
+        "Procedencia": "Luján"
+      },
+      {
+        "Jugador": "Vedia Caiguara, Alejandro Rider",
+        "Fase 1": 10.0,
+        "Fase 2": 0.0,
+        "Fase 3": 9.0,
+        "Total": 19.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Fernandez, Gianlucca",
+        "Fase 1": 6.0,
+        "Fase 2": 8.0,
+        "Fase 3": 3.0,
+        "Total": 17.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Villar, Lorenzo",
+        "Fase 1": 7.0,
+        "Fase 2": 7.0,
+        "Fase 3": 0.0,
+        "Total": 14.0,
+        "Procedencia": "Campana"
+      },
+      {
+        "Jugador": "Coseglia, Genaro",
+        "Fase 1": 0.0,
+        "Fase 2": 5.0,
+        "Fase 3": 6.0,
+        "Total": 11.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Rivero, Emanuel",
+        "Fase 1": 0.0,
+        "Fase 2": 6.0,
+        "Fase 3": 4.0,
+        "Total": 10.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Laforet, Juan Pablo",
+        "Fase 1": 5.0,
+        "Fase 2": 0.0,
+        "Fase 3": 5.0,
+        "Total": 10.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Farias D´Aloisio, Fidel",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 8.0,
+        "Total": 8.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Pousa, Nicolas",
+        "Fase 1": 2.0,
+        "Fase 2": 4.0,
+        "Fase 3": 0.0,
+        "Total": 6.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Gnazzo, Victoria",
+        "Fase 1": 4.0,
+        "Fase 2": 2.0,
+        "Fase 3": 0.0,
+        "Total": 6.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Bahamonde, Lautaro",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Caba"
+      },
+      {
+        "Jugador": "Gelmetti De Leon, Luciano",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Campana"
+      },
+      {
+        "Jugador": "Molina, Samuel",
+        "Fase 1": 0.0,
+        "Fase 2": 1.0,
+        "Fase 3": 2.0,
+        "Total": 3.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Mujica Alancay, Maximiliano",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 1.0,
+        "Total": 1.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Trobec, Sol",
+        "Fase 1": 1.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Villars"
+      },
+      {
+        "Jugador": "Cendon Denis, Adriel",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Amatriain, Fausto",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Baez, Cielo",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Engers, Mia Yanay",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Larluz, Yamil Jeremias",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Sotomayor Salinas, Sharline Sabrina",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Villalva, Tobias",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Suipacha"
+      }
+    ]
+  },
+  "Sub-16": {
+    "fases_nombres": [
+      "Fase 1",
+      "Fase 2",
+      "Fase 3"
+    ],
+    "fases": {
+      "Fase 1": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Almada, Juan Bautista",
+            "Procedencia": "Escobar",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Pou, Pedro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Ortiz Ramirez, Luciano Uriel",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Garcia, Luana",
+            "Procedencia": "Pilar",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Accomo, Juan Martin",
+            "Procedencia": "Suipacha",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Papandrea, Bautista",
+            "Procedencia": "Tigre",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Soto Siles, Javier Isidoro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Caballero, Miqueas",
+            "Procedencia": "Tigre",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Torre, Joaquin",
+            "Procedencia": "General Las Heras",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Tevez, Bruno Isaias",
+            "Procedencia": "Tigre",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Roldan Ramos, Stanley",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Valdez, Brandon Jeremias",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Balzano, Lautaro",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Kratzer, Pilar",
+            "Procedencia": "Zárate",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Fleitas, Facundo",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Ibarra, Lautaro Javier",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Fretes, Alexis",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 18,
+            "Jugador": "Amarilla, Marco",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 19,
+            "Jugador": "Rosse, Mariano",
+            "Procedencia": "Escobar",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 20,
+            "Jugador": "Silvero, Joaquin",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 21,
+            "Jugador": "Winkler, Alfonsina",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 22,
+            "Jugador": "Altamirano, Victoria",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 23,
+            "Jugador": "Victor, Juniors",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 24,
+            "Jugador": "Zavala, Tobias",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 25,
+            "Jugador": "Pallone, Tatiana",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 26,
+            "Jugador": "Pentray, Itzel",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 27,
+            "Jugador": "Palacio, Brian",
+            "Procedencia": "-",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 28,
+            "Jugador": "Rial, Joaquin Tiziano",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 29,
+            "Jugador": "Restuccia, Renzo Uziel",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 30,
+            "Jugador": "Realini, Josue",
+            "Procedencia": "Lobos",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 31,
+            "Jugador": "Gonzalez Perez, Bautista",
+            "Procedencia": "-",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 32,
+            "Jugador": "Kowalczuk, Lorenzo",
+            "Procedencia": "Tigre",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 33,
+            "Jugador": "Caceres, Ramiro",
+            "Procedencia": "Tigre",
+            "Puntos": 1.0
+          },
+          {
+            "Posicion": 34,
+            "Jugador": "Egui, Leandro Jose",
+            "Procedencia": "Tigre",
+            "Puntos": 1.0
+          },
+          {
+            "Posicion": 35,
+            "Jugador": "Rimbaud, Valentin",
+            "Procedencia": "Tigre",
+            "Puntos": 1.0
+          }
+        ]
+      },
+      "Fase 2": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Pou, Pedro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 6.0
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Buljubasich, Pedro",
+            "Procedencia": "Salto",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Amarilla, Marco",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Soto Siles, Javier Isidoro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Papandrea, Bautista",
+            "Procedencia": "Tigre",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Almada, Juan Bautista",
+            "Procedencia": "Escobar",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Fleitas, Facundo",
+            "Procedencia": "Tigre",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Roldan Ramos, Stanley",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Ortiz Ramirez, Luciano Uriel",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Altamirano, Victoria",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Caballero, Miqueas",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Accomo, Juan Martin",
+            "Procedencia": "Suipacha",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Bustos, Felipe",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Tevez, Bruno Isaias",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Stutz, Leon",
+            "Procedencia": "Tigre",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Balzano, Lautaro",
+            "Procedencia": "Escobar",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Silvero, Joaquin",
+            "Procedencia": "Escobar",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 18,
+            "Jugador": "Martinez, Mateo Valentin",
+            "Procedencia": "Tigre",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 19,
+            "Jugador": "Zavala, Valentino",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 20,
+            "Jugador": "Kratzer, Pilar",
+            "Procedencia": "Zárate",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 21,
+            "Jugador": "Realini, Josue",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 22,
+            "Jugador": "Winkler, Alfonsina",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 23,
+            "Jugador": "Rosse, Mariano",
+            "Procedencia": "Escobar",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 24,
+            "Jugador": "Victor, Juniors",
+            "Procedencia": "Lobos",
+            "Puntos": 2.5
+          },
+          {
+            "Posicion": 25,
+            "Jugador": "Mejia, Astor",
+            "Procedencia": "Marcos Paz",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 26,
+            "Jugador": "Machado, Leonel",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 27,
+            "Jugador": "Gonzalez Perez, Bautista",
+            "Procedencia": "Escobar",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 28,
+            "Jugador": "Pentray, Itzel",
+            "Procedencia": "Lobos",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 29,
+            "Jugador": "Palacio, Brian",
+            "Procedencia": "Tigre",
+            "Puntos": 1.5
+          },
+          {
+            "Posicion": 30,
+            "Jugador": "Britez Luna, Tomas Valentin",
+            "Procedencia": "Tigre",
+            "Puntos": 0.0
+          }
+        ]
+      },
+      "Fase 3": {
+        "link_chess_results": "#",
+        "resultados": [
+          {
+            "Posicion": 1,
+            "Jugador": "Amarilla, Marco",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 2,
+            "Jugador": "Papandrea, Bautista",
+            "Procedencia": "Tigre",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 3,
+            "Jugador": "Buljubasich, Pedro",
+            "Procedencia": "Salto",
+            "Puntos": 5.5
+          },
+          {
+            "Posicion": 4,
+            "Jugador": "Roldan Ramos, Stanley",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 5.0
+          },
+          {
+            "Posicion": 5,
+            "Jugador": "Almada, Juan Bautista",
+            "Procedencia": "Escobar",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 6,
+            "Jugador": "Caballero, Miqueas",
+            "Procedencia": "Tigre",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 7,
+            "Jugador": "Pou, Pedro",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 8,
+            "Jugador": "Balzano, Lautaro",
+            "Procedencia": "Escobar",
+            "Puntos": 4.5
+          },
+          {
+            "Posicion": 9,
+            "Jugador": "Victor, Juniors",
+            "Procedencia": "Lobos",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 10,
+            "Jugador": "Bustos, Felipe",
+            "Procedencia": "Tigre",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 11,
+            "Jugador": "Rosse, Mariano",
+            "Procedencia": "Escobar",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 12,
+            "Jugador": "Kratzer, Pilar",
+            "Procedencia": "-",
+            "Puntos": 4.0
+          },
+          {
+            "Posicion": 13,
+            "Jugador": "Fleitas, Facundo",
+            "Procedencia": "Tigre",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 14,
+            "Jugador": "Accomo, Juan Martin",
+            "Procedencia": "Suipacha",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 15,
+            "Jugador": "Ortiz Ramirez, Luciano Uriel",
+            "Procedencia": "General Rodríguez",
+            "Puntos": 3.5
+          },
+          {
+            "Posicion": 16,
+            "Jugador": "Tevez, Bruno",
+            "Procedencia": "Tigre",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 17,
+            "Jugador": "Pentray, Itzel",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 18,
+            "Jugador": "Realini, Josue",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 19,
+            "Jugador": "Winkler, Alfonsina",
+            "Procedencia": "Lobos",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 20,
+            "Jugador": "Ibarra, Lautaro Javier",
+            "Procedencia": "Tigre",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 21,
+            "Jugador": "Gonzalez Perez, Bautista",
+            "Procedencia": "Escobar",
+            "Puntos": 3.0
+          },
+          {
+            "Posicion": 22,
+            "Jugador": "Britez Luna, Tomas Valentin",
+            "Procedencia": "Tigre",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 23,
+            "Jugador": "Mejia, Astor",
+            "Procedencia": "Marcos Paz",
+            "Puntos": 2.0
+          },
+          {
+            "Posicion": 24,
+            "Jugador": "Amarilla, Maria",
+            "Procedencia": "Baradero",
+            "Puntos": 1.5
+          },
+          {
+            "Posicion": 25,
+            "Jugador": "Zavala, Valentino",
+            "Procedencia": "Escobar",
+            "Puntos": 1.0
+          },
+          {
+            "Posicion": 26,
+            "Jugador": "Masoero Loriente, Juan",
+            "Procedencia": "Baradero",
+            "Puntos": 0.5
+          }
+        ]
+      }
+    },
+    "acumulado_puntos": [
+      {
+        "Jugador": "Pou, Pedro",
+        "Fase 1": 5.5,
+        "Fase 2": 6.0,
+        "Fase 3": 4.5,
+        "Total": 16.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Almada, Juan Bautista",
+        "Fase 1": 6.0,
+        "Fase 2": 5.0,
+        "Fase 3": 4.5,
+        "Total": 15.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Papandrea, Bautista",
+        "Fase 1": 4.5,
+        "Fase 2": 5.0,
+        "Fase 3": 5.5,
+        "Total": 15.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Amarilla, Marco",
+        "Fase 1": 3.5,
+        "Fase 2": 5.0,
+        "Fase 3": 5.5,
+        "Total": 14.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Roldan Ramos, Stanley",
+        "Fase 1": 4.0,
+        "Fase 2": 4.5,
+        "Fase 3": 5.0,
+        "Total": 13.5,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Caballero, Miqueas",
+        "Fase 1": 4.5,
+        "Fase 2": 4.0,
+        "Fase 3": 4.5,
+        "Total": 13.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Ortiz Ramirez, Luciano Uriel",
+        "Fase 1": 5.5,
+        "Fase 2": 4.0,
+        "Fase 3": 3.5,
+        "Total": 13.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Accomo, Juan Martin",
+        "Fase 1": 5.0,
+        "Fase 2": 4.0,
+        "Fase 3": 3.5,
+        "Total": 12.5,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Fleitas, Facundo",
+        "Fase 1": 4.0,
+        "Fase 2": 5.0,
+        "Fase 3": 3.5,
+        "Total": 12.5,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Balzano, Lautaro",
+        "Fase 1": 4.0,
+        "Fase 2": 3.5,
+        "Fase 3": 4.5,
+        "Total": 12.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Buljubasich, Pedro",
+        "Fase 1": 0.0,
+        "Fase 2": 5.5,
+        "Fase 3": 5.5,
+        "Total": 11.0,
+        "Procedencia": "Salto"
+      },
+      {
+        "Jugador": "Kratzer, Pilar",
+        "Fase 1": 4.0,
+        "Fase 2": 3.0,
+        "Fase 3": 4.0,
+        "Total": 11.0,
+        "Procedencia": "Zárate"
+      },
+      {
+        "Jugador": "Rosse, Mariano",
+        "Fase 1": 3.5,
+        "Fase 2": 2.5,
+        "Fase 3": 4.0,
+        "Total": 10.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Victor, Juniors",
+        "Fase 1": 3.0,
+        "Fase 2": 2.5,
+        "Fase 3": 4.0,
+        "Total": 9.5,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Soto Siles, Javier Isidoro",
+        "Fase 1": 4.5,
+        "Fase 2": 5.0,
+        "Fase 3": 0.0,
+        "Total": 9.5,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Winkler, Alfonsina",
+        "Fase 1": 3.0,
+        "Fase 2": 3.0,
+        "Fase 3": 3.0,
+        "Total": 9.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Tevez, Bruno Isaias",
+        "Fase 1": 4.5,
+        "Fase 2": 4.0,
+        "Fase 3": 0.0,
+        "Total": 8.5,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Pentray, Itzel",
+        "Fase 1": 3.0,
+        "Fase 2": 2.0,
+        "Fase 3": 3.0,
+        "Total": 8.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Bustos, Felipe",
+        "Fase 1": 0.0,
+        "Fase 2": 4.0,
+        "Fase 3": 4.0,
+        "Total": 8.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Realini, Josue",
+        "Fase 1": 2.0,
+        "Fase 2": 3.0,
+        "Fase 3": 3.0,
+        "Total": 8.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Ibarra, Lautaro Javier",
+        "Fase 1": 4.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 7.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Altamirano, Victoria",
+        "Fase 1": 3.0,
+        "Fase 2": 4.0,
+        "Fase 3": 0.0,
+        "Total": 7.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Gonzalez Perez, Bautista",
+        "Fase 1": 2.0,
+        "Fase 2": 2.0,
+        "Fase 3": 3.0,
+        "Total": 7.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Silvero, Joaquin",
+        "Fase 1": 3.0,
+        "Fase 2": 3.5,
+        "Fase 3": 0.0,
+        "Total": 6.5,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Garcia, Luana",
+        "Fase 1": 5.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 5.5,
+        "Procedencia": "Pilar"
+      },
+      {
+        "Jugador": "Palacio, Brian",
+        "Fase 1": 3.0,
+        "Fase 2": 1.5,
+        "Fase 3": 0.0,
+        "Total": 4.5,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Torre, Joaquin",
+        "Fase 1": 4.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 4.5,
+        "Procedencia": "General Las Heras"
+      },
+      {
+        "Jugador": "Mejia, Astor",
+        "Fase 1": 0.0,
+        "Fase 2": 2.0,
+        "Fase 3": 2.0,
+        "Total": 4.0,
+        "Procedencia": "Marcos Paz"
+      },
+      {
+        "Jugador": "Zavala, Valentino",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 1.0,
+        "Total": 4.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Valdez, Brandon Jeremias",
+        "Fase 1": 4.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 4.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Fretes, Alexis",
+        "Fase 1": 3.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.5,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Stutz, Leon",
+        "Fase 1": 0.0,
+        "Fase 2": 3.5,
+        "Fase 3": 0.0,
+        "Total": 3.5,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Rial, Joaquin Tiziano",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Pallone, Tatiana",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Tevez, Bruno",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Zavala, Tobias",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Martinez, Mateo Valentin",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 0.0,
+        "Total": 3.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Restuccia, Renzo Uziel",
+        "Fase 1": 2.5,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 2.5,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Kowalczuk, Lorenzo",
+        "Fase 1": 2.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 2.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Machado, Leonel",
+        "Fase 1": 0.0,
+        "Fase 2": 2.0,
+        "Fase 3": 0.0,
+        "Total": 2.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Britez Luna, Tomas Valentin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 2.0,
+        "Total": 2.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Amarilla, Maria",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 1.5,
+        "Total": 1.5,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Caceres, Ramiro",
+        "Fase 1": 1.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Egui, Leandro Jose",
+        "Fase 1": 1.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Rimbaud, Valentin",
+        "Fase 1": 1.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Masoero Loriente, Juan",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.5,
+        "Total": 0.5,
+        "Procedencia": "Baradero"
+      }
+    ],
+    "acumulado_gp": [
+      {
+        "Jugador": "Pou, Pedro",
+        "Fase 1": 9.0,
+        "Fase 2": 10.0,
+        "Fase 3": 4.0,
+        "Total": 23.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Almada, Juan Bautista",
+        "Fase 1": 10.0,
+        "Fase 2": 5.0,
+        "Fase 3": 6.0,
+        "Total": 21.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Papandrea, Bautista",
+        "Fase 1": 5.0,
+        "Fase 2": 6.0,
+        "Fase 3": 9.0,
+        "Total": 20.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Amarilla, Marco",
+        "Fase 1": 0.0,
+        "Fase 2": 8.0,
+        "Fase 3": 10.0,
+        "Total": 18.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Buljubasich, Pedro",
+        "Fase 1": 0.0,
+        "Fase 2": 9.0,
+        "Fase 3": 8.0,
+        "Total": 17.0,
+        "Procedencia": "Salto"
+      },
+      {
+        "Jugador": "Soto Siles, Javier Isidoro",
+        "Fase 1": 4.0,
+        "Fase 2": 7.0,
+        "Fase 3": 0.0,
+        "Total": 11.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Ortiz Ramirez, Luciano Uriel",
+        "Fase 1": 8.0,
+        "Fase 2": 2.0,
+        "Fase 3": 0.0,
+        "Total": 10.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Roldan Ramos, Stanley",
+        "Fase 1": 0.0,
+        "Fase 2": 3.0,
+        "Fase 3": 7.0,
+        "Total": 10.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Caballero, Miqueas",
+        "Fase 1": 3.0,
+        "Fase 2": 0.0,
+        "Fase 3": 5.0,
+        "Total": 8.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Garcia, Luana",
+        "Fase 1": 7.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 7.0,
+        "Procedencia": "Pilar"
+      },
+      {
+        "Jugador": "Accomo, Juan Martin",
+        "Fase 1": 6.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 6.0,
+        "Procedencia": "Suipacha"
+      },
+      {
+        "Jugador": "Fleitas, Facundo",
+        "Fase 1": 0.0,
+        "Fase 2": 4.0,
+        "Fase 3": 0.0,
+        "Total": 4.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Balzano, Lautaro",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 3.0,
+        "Total": 3.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Torre, Joaquin",
+        "Fase 1": 2.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 2.0,
+        "Procedencia": "General Las Heras"
+      },
+      {
+        "Jugador": "Victor, Juniors",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 2.0,
+        "Total": 2.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Tevez, Bruno Isaias",
+        "Fase 1": 1.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Altamirano, Victoria",
+        "Fase 1": 0.0,
+        "Fase 2": 1.0,
+        "Fase 3": 0.0,
+        "Total": 1.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Bustos, Felipe",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 1.0,
+        "Total": 1.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Amarilla, Maria",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Egui, Leandro Jose",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Caceres, Ramiro",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Britez Luna, Tomas Valentin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Fretes, Alexis",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Masoero Loriente, Juan",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Baradero"
+      },
+      {
+        "Jugador": "Machado, Leonel",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Martinez, Mateo Valentin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Kratzer, Pilar",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Zárate"
+      },
+      {
+        "Jugador": "Gonzalez Perez, Bautista",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Ibarra, Lautaro Javier",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Kowalczuk, Lorenzo",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Realini, Josue",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Pentray, Itzel",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Palacio, Brian",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Pallone, Tatiana",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Mejia, Astor",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Marcos Paz"
+      },
+      {
+        "Jugador": "Rimbaud, Valentin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Rial, Joaquin Tiziano",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Restuccia, Renzo Uziel",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "General Rodríguez"
+      },
+      {
+        "Jugador": "Stutz, Leon",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Silvero, Joaquin",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Rosse, Mariano",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Tevez, Bruno",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Valdez, Brandon Jeremias",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Tigre"
+      },
+      {
+        "Jugador": "Winkler, Alfonsina",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Lobos"
+      },
+      {
+        "Jugador": "Zavala, Tobias",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
+      },
+      {
+        "Jugador": "Zavala, Valentino",
+        "Fase 1": 0.0,
+        "Fase 2": 0.0,
+        "Fase 3": 0.0,
+        "Total": 0.0,
+        "Procedencia": "Escobar"
       }
     ]
   }
