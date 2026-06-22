@@ -49,6 +49,7 @@
         <div class="flex gap-2 border-b border-slate-200 mb-6 overflow-x-auto">
             <button onclick="cambiarTab('gp')" id="btn-tab-gp" class="px-6 py-3 font-bold text-sm rounded-t-xl transition border-b-2 border-blue-600 text-blue-600 bg-white cursor-pointer whitespace-nowrap">🏎️ Acumulado Grand Prix</button>
             <button onclick="cambiarTab('puntos')" id="btn-tab-puntos" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📈 Acumulado Puntos Partidas</button>
+            <button onclick="cambiarTab('total')" id="btn-tab-total" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">🏆 Acumulado Total</button>
             <button onclick="cambiarTab('fases')" id="btn-tab-fases" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📍 Por Fase</button>
         </div>
 
@@ -122,7 +123,7 @@
         function cambiarTab(tab) {
             tabActual = tab;
             resetearDireccionesOrden();
-            ['gp', 'puntos', 'fases'].forEach(t => {
+            ['gp', 'puntos', 'total', 'fases'].forEach(t => {
                 const btn = document.getElementById(`btn-tab-${t}`);
                 if(btn) {
                     btn.className = (t === tab) 
@@ -161,7 +162,7 @@
                     valA = (a.Procedencia || '').toLowerCase();
                     valB = (b.Procedencia || '').toLowerCase();
                 } else if (columna === 'puntos') {
-                    if (tabActual === 'gp' || tabActual === 'puntos') {
+                    if (tabActual === 'gp' || tabActual === 'puntos' || tabActual === 'total') {
                         valA = a.Total !== undefined ? parseFloat(a.Total) : 0;
                         valB = b.Total !== undefined ? parseFloat(b.Total) : 0;
                     } else {
@@ -186,7 +187,7 @@
             html += `<th onclick="ordenarTabla('jugador')" class="sortable p-4">Ajedrecista <span id="dir-jugador"></span></th>`;
             html += `<th onclick="ordenarTabla('procedencia')" class="sortable p-4">Localidad / Club <span id="dir-procedencia"></span></th>`;
 
-            if (tabActual === 'gp' || tabActual === 'puntos') {
+            if (tabActual === 'gp' || tabActual === 'puntos' || tabActual === 'total') {
                 fasesNombresActivas.forEach(f => {
                     html += `<th class="p-4 text-center border-l border-slate-200 text-slate-400 tracking-tight">${f}</th>`;
                 });
@@ -258,6 +259,8 @@
                 listaActualMemoria = infoCat.acumulado_gp ? JSON.parse(JSON.stringify(infoCat.acumulado_gp)) : [];
             } else if(tabActual === 'puntos') {
                 listaActualMemoria = infoCat.acumulado_puntos ? JSON.parse(JSON.stringify(infoCat.acumulado_puntos)) : [];
+            } else if(tabActual === 'total') {
+                listaActualMemoria = infoCat.acumulado_total ? JSON.parse(JSON.stringify(infoCat.acumulado_total)) : [];
             } else {
                 listaActualMemoria = (infoCat.fases && infoCat.fases[faseElegida]) ? JSON.parse(JSON.stringify(infoCat.fases[faseElegida].resultados || [])) : [];
             }
@@ -290,14 +293,16 @@
                 let celdasFasesHtml = "";
                 let valorFinalHtml = "";
 
-                if (tabActual === 'gp' || tabActual === 'puntos') {
+                if (tabActual === 'gp' || tabActual === 'puntos' || tabActual === 'total') {
                     fasesNombresActivas.forEach(f => {
                         const ptsFase = row[f];
                         const mostrarPuntos = ptsFase ? ptsFase : "<span class='text-slate-300'>-</span>";
                         celdasFasesHtml += `<td class="p-4 text-center font-medium text-slate-500 border-l border-slate-100">${mostrarPuntos}</td>`;
                     });
 
-                    const sufijo = tabActual === 'gp' ? '🏆' : 'pts';
+                    let sufijo = 'pts';
+                    if(tabActual === 'gp') sufijo = '🏆';
+                    if(tabActual === 'total') sufijo = '⭐';
                     valorFinalHtml = `<td class="p-4 text-right pr-8 font-black text-slate-900 border-l border-slate-100 bg-slate-50/50">${row.Total} ${sufijo}</td>`;
                 } else {
                     const valor = row.Puntos_GP !== undefined ? `${row.Puntos_GP} 🏆` : `${row.Puntos} pts`;

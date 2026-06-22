@@ -129,17 +129,78 @@ def procesar_todo():
         pivot_ptos = pivot_ptos.reset_index().merge(df_procedencias, on='Jugador', how='left').fillna("-")
         ac_puntos = pivot_ptos.sort_values(by='Total', ascending=False).to_dict(orient='records')
 
-        # 3. Acumulado GP (También como Pivot Table)
-        pivot_gp = df_total.pivot_table(index='Jugador', columns='Fase', values='Puntos_GP', aggfunc='sum', fill_value=0)
+                # 3. Acumulado GP (También como Pivot Table)
+        pivot_gp = df_total.pivot_table(
+            index='Jugador',
+            columns='Fase',
+            values='Puntos_GP',
+            aggfunc='sum',
+            fill_value=0
+        )
+
         pivot_gp['Total'] = pivot_gp.sum(axis=1)
-        pivot_gp = pivot_gp.reset_index().merge(df_procedencias, on='Jugador', how='left').fillna("-")
-        ac_gp = pivot_gp.sort_values(by='Total', ascending=False).to_dict(orient='records')
+
+        pivot_gp = (
+            pivot_gp
+            .reset_index()
+            .merge(df_procedencias, on='Jugador', how='left')
+            .fillna("-")
+        )
+
+        ac_gp = pivot_gp.sort_values(
+            by='Total',
+            ascending=False
+        ).to_dict(orient='records')
+
+
+        # 4. Acumulado Total (GP + Puntos de Partidas)
+
+        ac_total = []
+
+        for _, row in pivot_ptos.iterrows():
+
+            jugador = row["Jugador"]
+
+            gp_row = pivot_gp[pivot_gp["Jugador"] == jugador]
+
+            gp_total = gp_row["Total"].iloc[0] if not gp_row.empty else 0
+            puntos_total = row["Total"]
+
+            registro = {
+                "Jugador": jugador,
+                "Procedencia": row["Procedencia"],
+                "GrandPrix": int(gp_total),
+                "Partidas": float(puntos_total),
+                "Total": float(gp_total + puntos_total)
+            }
+
+            for fase in fases_unicas:
+
+                gp_fase = (
+                    gp_row[fase].iloc[0]
+                    if (not gp_row.empty and fase in gp_row.columns)
+                    else 0
+                )
+
+                ptos_fase = row[fase] if fase in row.index else 0
+
+                registro[fase] = float(gp_fase + ptos_fase)
+
+            ac_total.append(registro)
+
+        ac_total = sorted(
+            ac_total,
+            key=lambda x: x["Total"],
+            reverse=True
+        )
+
 
         estructura_final[cat] = {
             "fases_nombres": fases_unicas,
             "fases": fases_dict,
             "acumulado_puntos": ac_puntos,
-            "acumulado_gp": ac_gp
+            "acumulado_gp": ac_gp,
+            "acumulado_total": ac_total
         }
 
     with open("datos_liga.json", "w", encoding="utf-8") as f:
