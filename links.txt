@@ -18,7 +18,7 @@
 3,Libres,https://s1.chess-results.com/tnr1437166.aspx
 4,Sub-8,https://s1.chess-results.com/tnr1458905.aspx
 4,Sub-10,https://s1.chess-results.com/tnr1458906.aspx
-4,Sub-12,https://s1.chess-results.com/tnr1458907.aspx
+4,Sub-12,https://s1.chess-results.com/tnr1458908.aspx
 4,Sub-14,https://s2.chess-results.com/tnr1458910.aspx
 4,Sub-16,https://s1.chess-results.com/tnr1458911.aspx
 4,Libres,https://s1.chess-results.com/tnr1458913.aspx

@@ -1,13 +1,34 @@
-Rk.,SNo,Name,FED,Rtg,Club/City,Pts.,TB1,TB2,TB3
-1,2,"Nguyễn, Minh Thanh",NHU,1999,Tiểu Học Nguyễn Huệ,2,0,3,2
-2,7,"Vũ, Nguyễn Thảo Đan",PDP,1994,Đoàn Tn Phường Phan Đình Phùng,2,0,3,2
-3,12,"Nguyễn, Bảo Anh",TTH,1989,Tiểu Học Trung Thành,2,0,3,2
-4,3,"Nguyễn, Trần Nhật Linh",NHU,1998,Tiểu Học Nguyễn Huệ,1,0,2,2
-5,4,"Đinh, Vũ An Vy",PDP,1997,Đoàn Tn Phường Phan Đình Phùng,1,0,2,2
-6,5,"Trần, Bảo An",PDP,1996,Đoàn Tn Phường Phan Đình Phùng,1,0,2,2
-7,1,"An, Huyền Anh",NHU,2000,Tiểu Học Nguyễn Huệ,1,0,1,2
-8,6,"Trần, Huyền Anh",PDP,1995,Đoàn Tn Phường Phan Đình Phùng,1,0,1,2
-9,8,"Đinh, Ngọc Lan",PGS,1993,Phường Gia Sàng,1,0,1,2
-10,9,"Trương, Hạ Vy",PGS,1992,Phường Gia Sàng,0,0,0,2
-11,10,"Bùi, Nhật Ánh",TNC,1991,Clb Cờ Thái Nguyên,0,0,0,2
-12,11,"Lê, Phương Thảo",TNC,1990,Clb Cờ Thái Nguyên,0,0,0,2
+Rk.,SNo,Name,Rtg,Club/City,TB1,TB2,TB3
+1,29,"Scappatura Delpech, Moreno",0,Luján,6.5,0,30.0
+2,7,"Di Castelnuovo Rugolotto	, Vittorio",0,Tigre,6.0,0,32.5
+3,16,"Martínez, Celso",0,Suipacha,5.0,0,32.0
+4,18,"Mengucci, Lorenzo",0,Zárate,5.0,0,31.5
+5,9,"Gorini, Joaquin",0,Escobar,5.0,0,28.0
+6,22,"Perez Csernoch, Ulises",0,Luján,5.0,0,27.5
+7,5,"Condo, Gael",0,Escobar,5.0,0,24.5
+8,11,"Herrera ramos, Bruno luciano",0,Escobar,4.0,0,28.0
+9,1,"Abrantes de jesus, Thiago",0,Marcos Paz,4.0,0,27.5
+10,4,"Claverie, Guillermo",0,General Rodríguez,4.0,0,27.0
+11,23,"Quecaña León, Benjamin",0,Zárate,4.0,0,26.5
+12,8,"Dobrovolny, Juliana",0,Escobar,4.0,0,26.5
+13,20,"Novais Luna	, Bastian",0,Tigre,4.0,0,26.0
+14,2,"Badino, Matias",0,Campana,4.0,0,25.5
+15,17,"Martínez, Sara",0,Lobos,4.0,0,21.0
+16,27,"Rosciano, Mateo",0,Lobos,4.0,0,20.0
+17,32,"Victor, Mia",0,Lobos,3.5,0,30.0
+18,21,"Ortiz, Stefano",0,Escobar,3.5,0,20.0
+19,14,"Juarez	, Milo",0,Tigre,3.0,0,27.0
+20,19,"Mujica Alancay, Ignacio",0,Lobos,3.0,0,26.5
+21,24,"Quintana	, Jonas",0,Tigre,3.0,0,25.5
+22,6,"Costa	, Francisco César",0,Tigre,3.0,0,24.0
+23,28,"Scampini	, Santino",0,Tigre,3.0,0,22.5
+24,30,"Schimpf, Emanuel",0,Suipacha,3.0,0,22.5
+25,25,"Quiroz	, Tadeo",0,Tigre,3.0,0,21.0
+26,13,"Ignacio, Lachter",0,Baradero,3.0,0,21.0
+27,15,"Larrañaga Giménez, Sofía",0,Suipacha,3.0,0,17.5
+28,31,"Suriano, Leandro",0,Baradero,2.5,0,18.5
+29,33,"Zampelunghe, Ángel",0,Lobos,2.0,0,22.5
+30,12,"Ibañez, Sofia",0,General Rodríguez,2.0,0,22.0
+31,3,"Brandan Tello, Lucio",0,Escobar,2.0,0,20.5
+32,26,"Romero, León",0,Lobos,2.0,0,16.0
+33,10,"Grecco, Joaquín",0,Lobos,1.0,0,19.0
