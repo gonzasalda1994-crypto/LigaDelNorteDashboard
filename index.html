@@ -37,21 +37,19 @@
                 <p id="kpi-jugadores" class="text-3xl font-black text-slate-800">-</p>
             </div>
             <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm transition hover:-translate-y-1">
-                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">👑 Líder Grand Prix</h3>
+                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">👑 Líder General</h3>
                 <p id="kpi-lider" class="text-xl font-black text-slate-800 truncate">-</p>
             </div>
             <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm transition hover:-translate-y-1">
-                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">🏎️ Puntos del Líder</h3>
+                <h3 class="text-slate-400 font-bold text-sm tracking-wider uppercase mb-1">🏆 Total Acumulado</h3>
                 <p id="kpi-puntos" class="text-3xl font-black text-blue-600">-</p>
             </div>
         </div>
 
         <div class="flex gap-2 border-b border-slate-200 mb-6 overflow-x-auto">
-            <button onclick="cambiarTab('gp')" id="btn-tab-gp" class="px-6 py-3 font-bold text-sm rounded-t-xl transition border-b-2 border-blue-600 text-blue-600 bg-white cursor-pointer whitespace-nowrap">🏎️ Acumulado Grand Prix</button>
-            <button onclick="cambiarTab('puntos')" id="btn-tab-puntos" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📈 Acumulado Puntos Partidas</button>
-            <button onclick="cambiarTab('total')" id="btn-tab-total" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">🏆 Acumulado Total</button>
-            <button onclick="cambiarTab('fases')" id="btn-tab-fases" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📍 Por Fase</button>
-        </div>
+<button onclick="cambiarTab('total')" id="btn-tab-total" class="px-6 py-3 font-bold text-sm rounded-t-xl transition border-b-2 border-blue-600 text-blue-600 bg-white cursor-pointer whitespace-nowrap">🏆 Acumulado Total</button>
+<button onclick="cambiarTab('fases')" id="btn-tab-fases" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📍 Por Fase</button>
+</div>
 
         <div id="aviso-puntuacion-gp" class="mb-6 bg-blue-50 border border-blue-200 p-4 rounded-xl text-blue-800 text-sm font-medium">
             💡 <span class="font-bold">Escala de puntos por Fase:</span> 1° puesto (10 pts), 2° (9 pts), 3° (8 pts), 4° (7 pts), 5° (6 pts), 6° (5 pts), 7° (4 pts), 8° (3 pts), 9° (2 pts) y 10° (1 pt).
@@ -69,7 +67,7 @@
 
     <script>
         let datosGlobales = {};
-        let tabActual = 'gp';
+        let tabActual = 'total';
         let listaActualMemoria = []; 
         let fasesNombresActivas = [];
         let columnaOrdenActiva = '';
@@ -123,7 +121,7 @@
         function cambiarTab(tab) {
             tabActual = tab;
             resetearDireccionesOrden();
-            ['gp', 'puntos', 'total', 'fases'].forEach(t => {
+            ['total', 'fases'].forEach(t => {
                 const btn = document.getElementById(`btn-tab-${t}`);
                 if(btn) {
                     btn.className = (t === tab) 
@@ -239,19 +237,15 @@
                 if(contenedorLink) contenedorLink.classList.add('hidden');
             }
 
-            if (tabActual === 'gp') {
-                avisoGP.classList.remove('hidden');
-            } else {
-                avisoGP.classList.add('hidden');
-            }
+            avisoGP.classList.add('hidden');
 
             // KPIs
             const totalJugadores = infoCat.acumulado_puntos ? infoCat.acumulado_puntos.length : 0;
             document.getElementById('kpi-jugadores').innerText = totalJugadores;
             
-            const lider = (infoCat.acumulado_gp && infoCat.acumulado_gp.length > 0) ? infoCat.acumulado_gp[0] : null;
+            const lider = (infoCat.acumulado_total && infoCat.acumulado_total.length > 0) ? infoCat.acumulado_total[0] : null;
             document.getElementById('kpi-lider').innerText = lider ? lider.Jugador : '-';
-            document.getElementById('kpi-puntos').innerText = lider ? `${lider.Total} pts` : '-';
+            document.getElementById('kpi-puntos').innerText = lider ? lider.Total : '-';
 
             actualizarEncabezados();
 
