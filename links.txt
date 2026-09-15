@@ -28,3 +28,11 @@
 5,Sub-14,https://s2.chess-results.com/tnr1472012.aspx
 5,Sub-16,https://s3.chess-results.com/tnr1472013.aspx
 5,Libres,https://s1.chess-results.com/tnr1472014.aspx
+6,Sub-8,https://s1.chess-results.com/tnr1490857.aspx
+6,Sub-10,https://s3.chess-results.com/tnr1490858.aspx
+6,Sub-12,https://s2.chess-results.com/tnr1490859.aspx
+6,Sub-14,https://s2.chess-results.com/tnr1490860.aspx
+6,Sub-16,https://s1.chess-results.com/tnr1490861.aspx
+6,Libres,https://s1.chess-results.com/tnr1490862.aspx
+
+
