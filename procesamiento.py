@@ -30,15 +30,35 @@ def normalizar_columnas(df):
     return df
 
 def limpiar_nombre(nombre_crudo):
-    if not isinstance(nombre_crudo, str): return "Desconocido"
-    texto = unicodedata.normalize('NFD', nombre_crudo)
-    nombre_limpio = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
-    partes = nombre_limpio.split(',')
+    """Normaliza nombres provenientes de Chess-Results."""
+
+    if not isinstance(nombre_crudo, str):
+        return "Desconocido"
+
+    nombre = nombre_crudo
+    nombre = nombre.replace("\t", " ")
+    nombre = nombre.replace("\n", " ")
+    nombre = nombre.replace("\r", " ")
+    nombre = nombre.replace("´", "'")
+    nombre = nombre.replace("`", "'")
+    nombre = re.sub(r"[\u200b-\u200d\ufeff]", "", nombre)
+    nombre = " ".join(nombre.split()).strip()
+    nombre = nombre.replace(" ,", ",")
+    nombre = nombre.replace(", ", ",")
+    nombre = nombre.replace(",", ", ")
+
+    texto = unicodedata.normalize("NFD", nombre)
+    texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
+
+    partes = texto.split(",")
+
     if len(partes) >= 2:
         apellido = " ".join(partes[0].split()).title()
         nombres = " ".join(partes[1].split()).title()
+        apellido = apellido.replace("Dellavedova", "Della Vedova")
         return f"{apellido}, {nombres}"
-    return " ".join(nombre_limpio.split()).title()
+
+    return " ".join(texto.split()).title()
 
 def limpiar_procedencia(texto):
     if pd.isna(texto) or not isinstance(texto, str):
@@ -98,10 +118,19 @@ def procesar_todo():
         df_total = pd.concat(dfs_fases, ignore_index=True)
         
         df_total['Jugador'] = df_total['Jugador'].apply(limpiar_nombre)
+        df_total['Jugador'] = (
+            df_total['Jugador']
+            .str.replace(r'\s+', ' ', regex=True)
+            .str.strip()
+        )
         df_total['Procedencia'] = df_total['Procedencia'].apply(limpiar_procedencia)
         
         if diccionario_alias:
-            df_total['Jugador'] = df_total['Jugador'].replace(diccionario_alias)
+            df_total['Jugador'] = (
+                df_total['Jugador']
+                .replace(diccionario_alias)
+                .str.strip()
+            )
 
         df_total['Puntos'] = pd.to_numeric(df_total['Puntos'], errors='coerce').fillna(0)
         df_total['Posicion'] = pd.to_numeric(df_total['Posicion'], errors='coerce')
