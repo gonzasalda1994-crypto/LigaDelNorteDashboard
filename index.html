@@ -51,10 +51,9 @@
 <button onclick="cambiarTab('fases')" id="btn-tab-fases" class="px-6 py-3 font-bold text-sm rounded-t-xl text-slate-500 hover:text-slate-800 transition cursor-pointer whitespace-nowrap">📍 Por Fase</button>
 </div>
 
-        <div id="aviso-descarte" class="mb-6 bg-amber-50 border border-amber-200 p-4 rounded-xl text-amber-900 text-sm font-medium">
-            📌 <span class="font-bold">Criterio de clasificación:</span>
-            Se descuenta la peor etapa realizada. En caso de ausencia en una etapa, esa ausencia se considera automáticamente como la peor etapa (0 puntos de Grand Prix), por lo que no se descuenta ninguna etapa disputada.
-            <span class="font-bold">Cálculo:</span> Grand Prix computable = puntos Grand Prix totales − peor etapa. El total acumulado se obtiene sumando el Grand Prix computable + los puntos de partidas.
+        <div id="aviso-descarte" class="mb-6 bg-white border border-slate-200 p-4 rounded-xl text-slate-600 text-sm shadow-sm">
+            <span class="font-bold text-slate-800">📌 Regla de descarte:</span>
+            se descuenta una sola etapa: la peor realizada o, si hubo ausencias, una de ellas. La etapa descartada aparece marcada en rojo.
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-x-auto">
@@ -191,9 +190,6 @@
                 fasesNombresActivas.forEach(f => {
                     html += `<th class="p-4 text-center border-l border-slate-200 text-slate-400 tracking-tight">${f}</th>`;
                 });
-                if (tabActual === 'total') {
-                    html += `<th class="p-4 text-center border-l border-slate-200 text-amber-700 bg-amber-50">Descarte</th>`;
-                }
                 html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8 border-l border-slate-200 bg-slate-100 rounded-tr-xl">Total <span id="dir-puntos"></span></th>`;
             } else {
                 html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8">Puntos Fase <span id="dir-puntos"></span></th>`;
@@ -281,7 +277,7 @@
             cuerpo.innerHTML = "";
 
             if (!listaActualMemoria || listaActualMemoria.length === 0) {
-                const colspan = tabActual === 'total' ? 5 + fasesNombresActivas.length : 4;
+                const colspan = tabActual === 'total' ? 4 + fasesNombresActivas.length : 4;
                 cuerpo.innerHTML = `<tr><td colspan="${colspan}" class="p-8 text-center text-slate-400">No hay datos disponibles</td></tr>`;
                 return;
             }
@@ -297,13 +293,23 @@
 
                 let celdasFasesHtml = "";
                 let valorFinalHtml = "";
-                let celdaDescarteHtml = "";
 
                 if (tabActual === 'gp' || tabActual === 'puntos' || tabActual === 'total') {
                     fasesNombresActivas.forEach(f => {
                         const ptsFase = row[f];
                         const mostrarPuntos = ptsFase ? ptsFase : "<span class='text-slate-300'>-</span>";
-                        celdasFasesHtml += `<td class="p-4 text-center font-medium text-slate-500 border-l border-slate-100">${mostrarPuntos}</td>`;
+
+                        if (tabActual === 'total' && f === row.EtapaDescarte) {
+                            const esAusencia = row.MotivoDescarte === 'Ausencia';
+                            const valorDescarte = esAusencia ? "<span class='text-red-500 font-bold'>-</span>" : mostrarPuntos;
+
+                            celdasFasesHtml += `
+                                <td title="Etapa descartada" class="p-4 text-center font-bold text-red-700 border-l border-red-100 bg-red-50">
+                                    ${valorDescarte}
+                                </td>`;
+                        } else {
+                            celdasFasesHtml += `<td class="p-4 text-center font-medium text-slate-500 border-l border-slate-100">${mostrarPuntos}</td>`;
+                        }
                     });
 
                     let sufijo = 'pts';
@@ -311,15 +317,6 @@
                     if(tabActual === 'total') {
                         sufijo = '⭐';
 
-                        const descarte = Number(row.DescarteGP || 0);
-                        const etapa = row.EtapaDescarte || '-';
-                        const motivo = row.MotivoDescarte || 'Peor etapa';
-
-                        if (motivo === 'Ausencia') {
-                            celdaDescarteHtml = `<td class="p-4 text-center border-l border-slate-100 bg-amber-50/60 text-amber-800 font-semibold whitespace-nowrap">${etapa}: ausencia (0 GP)</td>`;
-                        } else {
-                            celdaDescarteHtml = `<td class="p-4 text-center border-l border-slate-100 bg-amber-50/60 text-amber-800 font-semibold whitespace-nowrap">${etapa}: -${descarte} GP</td>`;
-                        }
                     }
                     valorFinalHtml = `<td class="p-4 text-right pr-8 font-black text-slate-900 border-l border-slate-100 bg-slate-50/50">${row.Total} ${sufijo}</td>`;
                 } else {
@@ -332,7 +329,6 @@
                     <td class="p-4 font-semibold text-slate-800 whitespace-nowrap">${row.Jugador}</td>
                     <td class="p-4 text-slate-500 font-normal truncate max-w-[150px]">${procedencia}</td>
                     ${celdasFasesHtml}
-                    ${celdaDescarteHtml}
                     ${valorFinalHtml}
                 `;
                 cuerpo.appendChild(tr);
