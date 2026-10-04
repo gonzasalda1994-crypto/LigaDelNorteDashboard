@@ -34,5 +34,10 @@
 6,Sub-14,https://s2.chess-results.com/tnr1490860.aspx
 6,Sub-16,https://s1.chess-results.com/tnr1490861.aspx
 6,Libres,https://s1.chess-results.com/tnr1490862.aspx
-
+7,Sub-8,https://s3.chess-results.com/tnr1509124.aspx
+7,Sub-10,https://s3.chess-results.com/tnr1509125.aspx
+7,Sub-12,https://s3.chess-results.com/tnr1509126.aspx
+7,Sub-14,https://s2.chess-results.com/tnr1509127.aspx
+7,Sub-16,https://s3.chess-results.com/tnr1509128.aspx
+7,Libres,https://s1.chess-results.com/tnr1509134.aspx
 

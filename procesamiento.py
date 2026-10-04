@@ -182,9 +182,20 @@ def procesar_todo():
         ).to_dict(orient='records')
 
 
-        # 4. Acumulado Total (GP + Puntos de Partidas)
+        # 4. Acumulado Total
+        # Regla de descarte:
+        # - Se descuenta la peor etapa de Grand Prix.
+        # - Si el jugador estuvo ausente en una o más etapas, la ausencia (0 GP)
+        #   se toma como la peor etapa y no se descuenta ninguna etapa disputada.
+        # - Total final = Grand Prix computable + puntos de partidas.
 
         ac_total = []
+
+        fases_jugadas_por_jugador = (
+            df_total.groupby('Jugador')['Fase']
+            .apply(set)
+            .to_dict()
+        )
 
         for _, row in pivot_ptos.iterrows():
 
@@ -195,21 +206,51 @@ def procesar_todo():
             gp_total = gp_row["Total"].iloc[0] if not gp_row.empty else 0
             puntos_total = row["Total"]
 
-            registro = {
-                "Jugador": jugador,
-                "Procedencia": row["Procedencia"],
-                "GrandPrix": int(gp_total),
-                "Partidas": float(puntos_total),
-                "Total": float(gp_total + puntos_total)
-            }
+            fases_jugadas = fases_jugadas_por_jugador.get(jugador, set())
+            fases_ausentes = [f for f in fases_unicas if f not in fases_jugadas]
 
-            for fase in fases_unicas:
-
-                gp_fase = (
+            valores_gp_fases = {
+                fase: float(
                     gp_row[fase].iloc[0]
                     if (not gp_row.empty and fase in gp_row.columns)
                     else 0
                 )
+                for fase in fases_unicas
+            }
+
+            if fases_ausentes:
+                descarte_gp = 0.0
+                etapa_descarte = fases_ausentes[0]
+                motivo_descarte = "Ausencia"
+            elif valores_gp_fases:
+                etapa_descarte = min(
+                    valores_gp_fases,
+                    key=lambda fase: valores_gp_fases[fase]
+                )
+                descarte_gp = valores_gp_fases[etapa_descarte]
+                motivo_descarte = "Peor etapa"
+            else:
+                descarte_gp = 0.0
+                etapa_descarte = "-"
+                motivo_descarte = "-"
+
+            gp_computable = float(gp_total) - float(descarte_gp)
+
+            registro = {
+                "Jugador": jugador,
+                "Procedencia": row["Procedencia"],
+                "GrandPrix": int(gp_total),
+                "DescarteGP": float(descarte_gp),
+                "EtapaDescarte": etapa_descarte,
+                "MotivoDescarte": motivo_descarte,
+                "GrandPrixComputable": float(gp_computable),
+                "Partidas": float(puntos_total),
+                "Total": float(gp_computable + puntos_total)
+            }
+
+            for fase in fases_unicas:
+
+                gp_fase = valores_gp_fases.get(fase, 0)
 
                 ptos_fase = row[fase] if fase in row.index else 0
 
