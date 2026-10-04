@@ -184,10 +184,12 @@ def procesar_todo():
 
         # 4. Acumulado Total
         # Regla de descarte:
-        # - Se descuenta la peor etapa de Grand Prix.
-        # - Si el jugador estuvo ausente en una o más etapas, la ausencia (0 GP)
-        #   se toma como la peor etapa y no se descuenta ninguna etapa disputada.
-        # - Total final = Grand Prix computable + puntos de partidas.
+        # - La peor etapa se determina por el TOTAL de esa etapa:
+        #   puntos Grand Prix + puntos de partidas.
+        # - Se descuenta UNA sola etapa.
+        # - Si hay dos o más etapas empatadas como la peor, se descuenta solo una.
+        # - Si hubo una o más ausencias, se toma una ausencia como descarte (0 puntos).
+        # - Total final = suma de todas las etapas - peor etapa.
 
         ac_total = []
 
@@ -200,61 +202,60 @@ def procesar_todo():
         for _, row in pivot_ptos.iterrows():
 
             jugador = row["Jugador"]
-
             gp_row = pivot_gp[pivot_gp["Jugador"] == jugador]
 
-            gp_total = gp_row["Total"].iloc[0] if not gp_row.empty else 0
-            puntos_total = row["Total"]
+            gp_total = float(gp_row["Total"].iloc[0]) if not gp_row.empty else 0.0
+            puntos_total = float(row["Total"])
+            total_bruto = gp_total + puntos_total
 
             fases_jugadas = fases_jugadas_por_jugador.get(jugador, set())
             fases_ausentes = [f for f in fases_unicas if f not in fases_jugadas]
 
-            valores_gp_fases = {
-                fase: float(
+            valores_totales_fases = {}
+
+            for fase in fases_unicas:
+                gp_fase = float(
                     gp_row[fase].iloc[0]
                     if (not gp_row.empty and fase in gp_row.columns)
                     else 0
                 )
-                for fase in fases_unicas
-            }
+                ptos_fase = float(row[fase]) if fase in row.index else 0.0
+                valores_totales_fases[fase] = gp_fase + ptos_fase
 
             if fases_ausentes:
-                descarte_gp = 0.0
+                # Si faltó a una o más etapas, se descuenta solo una ausencia.
                 etapa_descarte = fases_ausentes[0]
+                descarte_total = 0.0
                 motivo_descarte = "Ausencia"
-            elif valores_gp_fases:
+            elif valores_totales_fases:
+                # Si hay empate entre las peores etapas, min() toma solo una.
                 etapa_descarte = min(
-                    valores_gp_fases,
-                    key=lambda fase: valores_gp_fases[fase]
+                    valores_totales_fases,
+                    key=lambda fase: valores_totales_fases[fase]
                 )
-                descarte_gp = valores_gp_fases[etapa_descarte]
+                descarte_total = valores_totales_fases[etapa_descarte]
                 motivo_descarte = "Peor etapa"
             else:
-                descarte_gp = 0.0
                 etapa_descarte = "-"
+                descarte_total = 0.0
                 motivo_descarte = "-"
 
-            gp_computable = float(gp_total) - float(descarte_gp)
+            total_final = total_bruto - descarte_total
 
             registro = {
                 "Jugador": jugador,
                 "Procedencia": row["Procedencia"],
-                "GrandPrix": int(gp_total),
-                "DescarteGP": float(descarte_gp),
+                "GrandPrix": gp_total,
+                "Partidas": puntos_total,
+                "TotalBruto": total_bruto,
+                "DescarteTotal": float(descarte_total),
                 "EtapaDescarte": etapa_descarte,
                 "MotivoDescarte": motivo_descarte,
-                "GrandPrixComputable": float(gp_computable),
-                "Partidas": float(puntos_total),
-                "Total": float(gp_computable + puntos_total)
+                "Total": float(total_final)
             }
 
             for fase in fases_unicas:
-
-                gp_fase = valores_gp_fases.get(fase, 0)
-
-                ptos_fase = row[fase] if fase in row.index else 0
-
-                registro[fase] = float(gp_fase + ptos_fase)
+                registro[fase] = float(valores_totales_fases.get(fase, 0))
 
             ac_total.append(registro)
 
