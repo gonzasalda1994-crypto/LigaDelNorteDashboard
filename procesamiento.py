@@ -66,11 +66,22 @@ def limpiar_procedencia(texto):
     return " ".join(texto.split()).title()
 
 def cargar_alias():
-    """Carga el diccionario de unificación de nombres si existe."""
+    """Carga y normaliza el diccionario de alias para que coincida con los nombres procesados."""
     if os.path.exists("alias_jugadores.json"):
         try:
             with open("alias_jugadores.json", "r", encoding="utf-8") as f:
-                return json.load(f)
+                alias_crudos = json.load(f)
+
+            # Los nombres de los CSV se normalizan antes de aplicar los alias.
+            # Normalizamos también claves y valores del JSON para que:
+            # "Roldán, Stanley" y "Roldan, Stanley" sean equivalentes.
+            alias_normalizados = {
+                limpiar_nombre(origen): limpiar_nombre(destino)
+                for origen, destino in alias_crudos.items()
+            }
+
+            return alias_normalizados
+
         except Exception as e:
             print(f"[-] Error al leer alias_jugadores.json: {e}")
     return {}
