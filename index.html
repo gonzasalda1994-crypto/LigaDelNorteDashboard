@@ -190,7 +190,10 @@
                 fasesNombresActivas.forEach(f => {
                     html += `<th class="p-4 text-center border-l border-slate-200 text-slate-400 tracking-tight">${f}</th>`;
                 });
-                html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8 border-l border-slate-200 bg-slate-100 rounded-tr-xl">Total <span id="dir-puntos"></span></th>`;
+                if (tabActual === 'total') {
+                    html += `<th class="p-4 text-center border-l border-slate-200 bg-slate-50 text-slate-500">Cálculo</th>`;
+                }
+                html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8 border-l border-slate-200 bg-slate-100 rounded-tr-xl">Total final <span id="dir-puntos"></span></th>`;
             } else {
                 html += `<th onclick="ordenarTabla('puntos')" class="sortable p-4 text-right pr-8">Puntos Fase <span id="dir-puntos"></span></th>`;
             }
@@ -277,7 +280,7 @@
             cuerpo.innerHTML = "";
 
             if (!listaActualMemoria || listaActualMemoria.length === 0) {
-                const colspan = tabActual === 'total' ? 4 + fasesNombresActivas.length : 4;
+                const colspan = tabActual === 'total' ? 5 + fasesNombresActivas.length : 4;
                 cuerpo.innerHTML = `<tr><td colspan="${colspan}" class="p-8 text-center text-slate-400">No hay datos disponibles</td></tr>`;
                 return;
             }
@@ -293,6 +296,7 @@
 
                 let celdasFasesHtml = "";
                 let valorFinalHtml = "";
+                let calculoTotalHtml = "";
 
                 if (tabActual === 'gp' || tabActual === 'puntos' || tabActual === 'total') {
                     fasesNombresActivas.forEach(f => {
@@ -317,6 +321,13 @@
                     if(tabActual === 'total') {
                         sufijo = '⭐';
 
+                        const totalBruto = Number(row.TotalBruto || 0);
+                        const descarte = Number(row.DescarteTotal || 0);
+
+                        calculoTotalHtml = `
+                            <td class="p-4 text-center font-semibold text-slate-600 border-l border-slate-100 bg-slate-50/40 whitespace-nowrap">
+                                ${totalBruto} - ${descarte}
+                            </td>`;
                     }
                     valorFinalHtml = `<td class="p-4 text-right pr-8 font-black text-slate-900 border-l border-slate-100 bg-slate-50/50">${row.Total} ${sufijo}</td>`;
                 } else {
@@ -329,6 +340,7 @@
                     <td class="p-4 font-semibold text-slate-800 whitespace-nowrap">${row.Jugador}</td>
                     <td class="p-4 text-slate-500 font-normal truncate max-w-[150px]">${procedencia}</td>
                     ${celdasFasesHtml}
+                    ${calculoTotalHtml}
                     ${valorFinalHtml}
                 `;
                 cuerpo.appendChild(tr);
